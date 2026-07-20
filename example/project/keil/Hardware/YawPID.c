@@ -7,8 +7,8 @@
  *  第一版建议 Ki_yaw_angle = 0、Kd_yaw_angle = 0，
  *  先把角度外环当 P 控制器调通，再按需要加 I / D。
  */
-volatile float Kp_yaw_angle = 2.0f;
-volatile float Ki_yaw_angle = 0.0f;
+volatile float Kp_yaw_angle = 1.0f;
+volatile float Ki_yaw_angle = 0.2f;
 volatile float Kd_yaw_angle = 0.0f;
 
 volatile float YAW_ANGLE_I_MAX = 30.0f;

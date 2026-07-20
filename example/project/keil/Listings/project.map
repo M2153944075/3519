@@ -2040,7 +2040,7 @@ Section Cross References
     pid.o(.text.PID_RemoteSetParameter) refers to yawpid.o(.data.Ki_yaw_rate) for Ki_yaw_rate
     pid.o(.text.PID_RemoteSetParameter) refers to yawpid.o(.data.Kp_yaw_rate) for Kp_yaw_rate
     pid.o(.text.PID_RemoteSetParameter) refers to yawpid.o(.bss.Kd_yaw_angle) for Kd_yaw_angle
-    pid.o(.text.PID_RemoteSetParameter) refers to yawpid.o(.bss.Ki_yaw_angle) for Ki_yaw_angle
+    pid.o(.text.PID_RemoteSetParameter) refers to yawpid.o(.data.Ki_yaw_angle) for Ki_yaw_angle
     pid.o(.text.PID_RemoteSetParameter) refers to yawpid.o(.data.Kp_yaw_angle) for Kp_yaw_angle
     pid.o(.text.PID_RemoteSetParameter) refers to speedpid.o(.bss.Kd_spd) for Kd_spd
     pid.o(.text.PID_RemoteSetParameter) refers to speedpid.o(.data.Ki_spd) for Ki_spd
@@ -2050,7 +2050,7 @@ Section Cross References
     pid.o(.text.PID_RemoteGetSnapshot) refers to speedpid.o(.data.Ki_spd) for Ki_spd
     pid.o(.text.PID_RemoteGetSnapshot) refers to speedpid.o(.bss.Kd_spd) for Kd_spd
     pid.o(.text.PID_RemoteGetSnapshot) refers to yawpid.o(.data.Kp_yaw_angle) for Kp_yaw_angle
-    pid.o(.text.PID_RemoteGetSnapshot) refers to yawpid.o(.bss.Ki_yaw_angle) for Ki_yaw_angle
+    pid.o(.text.PID_RemoteGetSnapshot) refers to yawpid.o(.data.Ki_yaw_angle) for Ki_yaw_angle
     pid.o(.text.PID_RemoteGetSnapshot) refers to yawpid.o(.bss.Kd_yaw_angle) for Kd_yaw_angle
     pid.o(.text.PID_RemoteGetSnapshot) refers to yawpid.o(.data.Kp_yaw_rate) for Kp_yaw_rate
     pid.o(.text.PID_RemoteGetSnapshot) refers to yawpid.o(.data.Ki_yaw_rate) for Ki_yaw_rate
@@ -2103,7 +2103,7 @@ Section Cross References
     speedpid.o(.ARM.exidx.text.SpeedToPWM) refers to speedpid.o(.text.SpeedToPWM) for [Anonymous Symbol]
     yawpid.o(.text.YawAnglePID_Init) refers to pid.o(.text.PID_Init) for PID_Init
     yawpid.o(.text.YawAnglePID_Init) refers to yawpid.o(.data.Kp_yaw_angle) for Kp_yaw_angle
-    yawpid.o(.text.YawAnglePID_Init) refers to yawpid.o(.bss.Ki_yaw_angle) for Ki_yaw_angle
+    yawpid.o(.text.YawAnglePID_Init) refers to yawpid.o(.data.Ki_yaw_angle) for Ki_yaw_angle
     yawpid.o(.text.YawAnglePID_Init) refers to yawpid.o(.bss.Kd_yaw_angle) for Kd_yaw_angle
     yawpid.o(.text.YawAnglePID_Init) refers to pid.o(.data.PID_CONTROL_DT) for PID_CONTROL_DT
     yawpid.o(.text.YawAnglePID_Init) refers to yawpid.o(.data.YAW_ANGLE_I_MAX) for YAW_ANGLE_I_MAX
@@ -2123,7 +2123,7 @@ Section Cross References
     yawpid.o(.ARM.exidx.text.YawRatePID_Init) refers to yawpid.o(.text.YawRatePID_Init) for [Anonymous Symbol]
     yawpid.o(.text.YawAngleSpeedPID_Init) refers to pid.o(.text.PID_Init) for PID_Init
     yawpid.o(.text.YawAngleSpeedPID_Init) refers to yawpid.o(.data.Kp_yaw_angle) for Kp_yaw_angle
-    yawpid.o(.text.YawAngleSpeedPID_Init) refers to yawpid.o(.bss.Ki_yaw_angle) for Ki_yaw_angle
+    yawpid.o(.text.YawAngleSpeedPID_Init) refers to yawpid.o(.data.Ki_yaw_angle) for Ki_yaw_angle
     yawpid.o(.text.YawAngleSpeedPID_Init) refers to yawpid.o(.bss.Kd_yaw_angle) for Kd_yaw_angle
     yawpid.o(.text.YawAngleSpeedPID_Init) refers to pid.o(.data.PID_CONTROL_DT) for PID_CONTROL_DT
     yawpid.o(.text.YawAngleSpeedPID_Init) refers to yawpid.o(.data.YAW_ANGLE_I_MAX) for YAW_ANGLE_I_MAX
@@ -2133,7 +2133,7 @@ Section Cross References
     yawpid.o(.ARM.exidx.text.YawAngleSpeedPID_Init) refers to yawpid.o(.text.YawAngleSpeedPID_Init) for [Anonymous Symbol]
     yawpid.o(.text.YawAnglePIDParameters) refers to pid.o(.text.PID_SetParameters) for PID_SetParameters
     yawpid.o(.text.YawAnglePIDParameters) refers to yawpid.o(.data.Kp_yaw_angle) for Kp_yaw_angle
-    yawpid.o(.text.YawAnglePIDParameters) refers to yawpid.o(.bss.Ki_yaw_angle) for Ki_yaw_angle
+    yawpid.o(.text.YawAnglePIDParameters) refers to yawpid.o(.data.Ki_yaw_angle) for Ki_yaw_angle
     yawpid.o(.text.YawAnglePIDParameters) refers to yawpid.o(.bss.Kd_yaw_angle) for Kd_yaw_angle
     yawpid.o(.text.YawAnglePIDParameters) refers to pid.o(.data.PID_CONTROL_DT) for PID_CONTROL_DT
     yawpid.o(.text.YawAnglePIDParameters) refers to yawpid.o(.data.YAW_ANGLE_I_MAX) for YAW_ANGLE_I_MAX
@@ -2195,7 +2195,7 @@ Section Cross References
     yawpid.o(.ARM.exidx.text.Angle_To_Speed) refers to yawpid.o(.text.Angle_To_Speed) for [Anonymous Symbol]
     yawpid.o(.text.AngleSpeedPIDParameters) refers to pid.o(.text.PID_SetParameters) for PID_SetParameters
     yawpid.o(.text.AngleSpeedPIDParameters) refers to yawpid.o(.data.Kp_yaw_angle) for Kp_yaw_angle
-    yawpid.o(.text.AngleSpeedPIDParameters) refers to yawpid.o(.bss.Ki_yaw_angle) for Ki_yaw_angle
+    yawpid.o(.text.AngleSpeedPIDParameters) refers to yawpid.o(.data.Ki_yaw_angle) for Ki_yaw_angle
     yawpid.o(.text.AngleSpeedPIDParameters) refers to yawpid.o(.bss.Kd_yaw_angle) for Kd_yaw_angle
     yawpid.o(.text.AngleSpeedPIDParameters) refers to pid.o(.data.PID_CONTROL_DT) for PID_CONTROL_DT
     yawpid.o(.text.AngleSpeedPIDParameters) refers to yawpid.o(.data.YAW_ANGLE_I_MAX) for YAW_ANGLE_I_MAX
@@ -4923,157 +4923,157 @@ Image Symbol Table
     __arm_cp.0_6                             0x0000447c   Number         4  track.o(.text.Track_Init)
     Track_IsCenter                           0x00004481   Thumb Code    22  track.o(.text.Track_IsCenter)
     [Anonymous Symbol]                       0x00004480   Section        0  track.o(.text.Track_IsCenter)
-    Track_IsLeftMarker                       0x00004497   Thumb Code    52  track.o(.text.Track_IsLeftMarker)
+    Track_IsLeftMarker                       0x00004497   Thumb Code    20  track.o(.text.Track_IsLeftMarker)
     [Anonymous Symbol]                       0x00004496   Section        0  track.o(.text.Track_IsLeftMarker)
-    Track_IsRightMarker                      0x000044cb   Thumb Code    52  track.o(.text.Track_IsRightMarker)
-    [Anonymous Symbol]                       0x000044ca   Section        0  track.o(.text.Track_IsRightMarker)
-    Track_LimitTarget                        0x00004501   Thumb Code   100  track.o(.text.Track_LimitTarget)
-    [Anonymous Symbol]                       0x00004500   Section        0  track.o(.text.Track_LimitTarget)
-    __arm_cp.11_0                            0x00004564   Number         4  track.o(.text.Track_LimitTarget)
-    __arm_cp.11_1                            0x00004568   Number         4  track.o(.text.Track_LimitTarget)
-    [Anonymous Symbol]                       0x0000456c   Section        0  track.o(.text.Track_OnLostLine)
-    Track_ResetControlLoops                  0x000045ad   Thumb Code    20  track.o(.text.Track_ResetControlLoops)
-    [Anonymous Symbol]                       0x000045ac   Section        0  track.o(.text.Track_ResetControlLoops)
-    __arm_cp.1_0                             0x000045c0   Number         4  track.o(.text.Track_ResetControlLoops)
-    __arm_cp.1_1                             0x000045c4   Number         4  track.o(.text.Track_ResetControlLoops)
-    Track_RunPreciseTurn                     0x000045c9   Thumb Code   116  track.o(.text.Track_RunPreciseTurn)
-    [Anonymous Symbol]                       0x000045c8   Section        0  track.o(.text.Track_RunPreciseTurn)
-    __arm_cp.7_0                             0x0000463c   Number         4  track.o(.text.Track_RunPreciseTurn)
-    __arm_cp.7_1                             0x00004640   Number         4  track.o(.text.Track_RunPreciseTurn)
-    __arm_cp.7_2                             0x00004644   Number         4  track.o(.text.Track_RunPreciseTurn)
-    __arm_cp.7_3                             0x00004648   Number         4  track.o(.text.Track_RunPreciseTurn)
-    [Anonymous Symbol]                       0x0000464c   Section        0  track.o(.text.Track_Update)
-    __arm_cp.2_0                             0x00004658   Number         4  track.o(.text.Track_Update)
-    [Anonymous Symbol]                       0x0000465c   Section        0  bluetooth.o(.text.UART1_IRQHandler)
-    __arm_cp.6_0                             0x0000467c   Number         4  bluetooth.o(.text.UART1_IRQHandler)
-    [Anonymous Symbol]                       0x00004680   Section        0  uart.o(.text.UART1_TX_DMAPump)
-    UART1_TX_DMA_IsIdle                      0x00004699   Thumb Code    68  uart.o(.text.UART1_TX_DMA_IsIdle)
-    [Anonymous Symbol]                       0x00004698   Section        0  uart.o(.text.UART1_TX_DMA_IsIdle)
-    UART1_TX_DMA_Kick                        0x000046dd   Thumb Code   196  uart.o(.text.UART1_TX_DMA_Kick)
-    [Anonymous Symbol]                       0x000046dc   Section        0  uart.o(.text.UART1_TX_DMA_Kick)
-    __arm_cp.13_0                            0x000047a0   Number         4  uart.o(.text.UART1_TX_DMA_Kick)
-    __arm_cp.13_1                            0x000047a4   Number         4  uart.o(.text.UART1_TX_DMA_Kick)
-    __arm_cp.13_2                            0x000047a8   Number         4  uart.o(.text.UART1_TX_DMA_Kick)
-    __arm_cp.13_3                            0x000047ac   Number         4  uart.o(.text.UART1_TX_DMA_Kick)
-    __arm_cp.13_4                            0x000047b0   Number         4  uart.o(.text.UART1_TX_DMA_Kick)
-    __arm_cp.13_6                            0x000047b4   Number         4  uart.o(.text.UART1_TX_DMA_Kick)
-    __arm_cp.13_7                            0x000047b8   Number         4  uart.o(.text.UART1_TX_DMA_Kick)
-    [Anonymous Symbol]                       0x000047bc   Section        0  uart.o(.text.UART7_RX_Available)
-    UART7_RX_DMA_Arm                         0x000047e5   Thumb Code    68  uart.o(.text.UART7_RX_DMA_Arm)
-    [Anonymous Symbol]                       0x000047e4   Section        0  uart.o(.text.UART7_RX_DMA_Arm)
-    __arm_cp.15_1                            0x00004828   Number         4  uart.o(.text.UART7_RX_DMA_Arm)
-    __arm_cp.15_2                            0x0000482c   Number         4  uart.o(.text.UART7_RX_DMA_Arm)
-    [Anonymous Symbol]                       0x00004830   Section        0  uart.o(.text.UART7_RX_DMA_Reset)
-    __arm_cp.4_2                             0x0000484c   Number         4  uart.o(.text.UART7_RX_DMA_Reset)
-    [Anonymous Symbol]                       0x00004850   Section        0  uart.o(.text.UART7_RX_Read)
-    __arm_cp.20_0                            0x000048c8   Number         4  uart.o(.text.UART7_RX_Read)
-    __arm_cp.20_1                            0x000048cc   Number         4  uart.o(.text.UART7_RX_Read)
-    __arm_cp.20_2                            0x000048d0   Number         4  uart.o(.text.UART7_RX_Read)
-    [Anonymous Symbol]                       0x000048d4   Section        0  uart.o(.text.UART_Init)
-    [Anonymous Symbol]                       0x0000490c   Section        0  yawpid.o(.text.YawAnglePIDParameters)
-    [Anonymous Symbol]                       0x00004940   Section        0  yawpid.o(.text.YawAnglePID_Init)
-    __arm_cp.0_5                             0x00004974   Number         4  yawpid.o(.text.YawAnglePID_Init)
-    [Anonymous Symbol]                       0x00004978   Section        0  yawpid.o(.text.YawAngleSpeedPID_Init)
-    __arm_cp.2_0                             0x000049ac   Number         4  yawpid.o(.text.YawAngleSpeedPID_Init)
-    __arm_cp.2_1                             0x000049b0   Number         4  yawpid.o(.text.YawAngleSpeedPID_Init)
-    __arm_cp.2_2                             0x000049b4   Number         4  yawpid.o(.text.YawAngleSpeedPID_Init)
-    __arm_cp.2_4                             0x000049b8   Number         4  yawpid.o(.text.YawAngleSpeedPID_Init)
-    __arm_cp.2_6                             0x000049bc   Number         4  yawpid.o(.text.YawAngleSpeedPID_Init)
-    [Anonymous Symbol]                       0x000049c0   Section        0  yawpid.o(.text.YawAngle_Reset)
-    __arm_cp.6_1                             0x000049dc   Number         4  yawpid.o(.text.YawAngle_Reset)
-    [Anonymous Symbol]                       0x000049e0   Section        0  yawpid.o(.text.YawAngle_SetTarget)
-    [Anonymous Symbol]                       0x000049fc   Section        0  yawpid.o(.text.YawAngle_Update)
-    __arm_cp.10_0                            0x00004a2c   Number         4  yawpid.o(.text.YawAngle_Update)
-    __arm_cp.10_1                            0x00004a30   Number         4  yawpid.o(.text.YawAngle_Update)
-    __arm_cp.10_2                            0x00004a34   Number         4  yawpid.o(.text.YawAngle_Update)
-    [Anonymous Symbol]                       0x00004a38   Section        0  yawpid.o(.text.YawRatePIDParameters)
-    [Anonymous Symbol]                       0x00004a6c   Section        0  yawpid.o(.text.YawRatePID_Init)
-    __arm_cp.1_0                             0x00004aa0   Number         4  yawpid.o(.text.YawRatePID_Init)
-    __arm_cp.1_1                             0x00004aa4   Number         4  yawpid.o(.text.YawRatePID_Init)
-    __arm_cp.1_2                             0x00004aa8   Number         4  yawpid.o(.text.YawRatePID_Init)
-    __arm_cp.1_3                             0x00004aac   Number         4  yawpid.o(.text.YawRatePID_Init)
-    __arm_cp.1_4                             0x00004ab0   Number         4  yawpid.o(.text.YawRatePID_Init)
-    __arm_cp.1_5                             0x00004ab4   Number         4  yawpid.o(.text.YawRatePID_Init)
-    __arm_cp.1_6                             0x00004ab8   Number         4  yawpid.o(.text.YawRatePID_Init)
-    [Anonymous Symbol]                       0x00004abc   Section        0  yawpid.o(.text.YawRate_Reset)
-    [Anonymous Symbol]                       0x00004acc   Section        0  yawpid.o(.text.YawRate_Update)
-    __arm_cp.11_0                            0x00004aec   Number         4  yawpid.o(.text.YawRate_Update)
-    __NVIC_ClearPendingIRQ                   0x00004af1   Thumb Code    40  encoder.o(.text.__NVIC_ClearPendingIRQ)
-    [Anonymous Symbol]                       0x00004af0   Section        0  encoder.o(.text.__NVIC_ClearPendingIRQ)
-    __NVIC_ClearPendingIRQ                   0x00004b19   Thumb Code    40  board.o(.text.__NVIC_ClearPendingIRQ)
-    [Anonymous Symbol]                       0x00004b18   Section        0  board.o(.text.__NVIC_ClearPendingIRQ)
-    __NVIC_ClearPendingIRQ                   0x00004b41   Thumb Code    40  uart.o(.text.__NVIC_ClearPendingIRQ)
-    [Anonymous Symbol]                       0x00004b40   Section        0  uart.o(.text.__NVIC_ClearPendingIRQ)
-    __arm_cp.1_0                             0x00004b68   Number         4  uart.o(.text.__NVIC_ClearPendingIRQ)
-    __NVIC_DisableIRQ                        0x00004b6d   Thumb Code    48  uart.o(.text.__NVIC_DisableIRQ)
-    [Anonymous Symbol]                       0x00004b6c   Section        0  uart.o(.text.__NVIC_DisableIRQ)
-    __arm_cp.3_0                             0x00004b9c   Number         4  uart.o(.text.__NVIC_DisableIRQ)
-    __NVIC_EnableIRQ                         0x00004ba1   Thumb Code    40  encoder.o(.text.__NVIC_EnableIRQ)
-    [Anonymous Symbol]                       0x00004ba0   Section        0  encoder.o(.text.__NVIC_EnableIRQ)
-    __NVIC_EnableIRQ                         0x00004bc9   Thumb Code    40  board.o(.text.__NVIC_EnableIRQ)
-    [Anonymous Symbol]                       0x00004bc8   Section        0  board.o(.text.__NVIC_EnableIRQ)
-    __NVIC_EnableIRQ                         0x00004bf1   Thumb Code    40  uart.o(.text.__NVIC_EnableIRQ)
-    [Anonymous Symbol]                       0x00004bf0   Section        0  uart.o(.text.__NVIC_EnableIRQ)
-    __arm_cp.2_0                             0x00004c18   Number         4  uart.o(.text.__NVIC_EnableIRQ)
-    __NVIC_SetPriority                       0x00004c1d   Thumb Code   124  ti_msp_dl_config.o(.text.__NVIC_SetPriority)
-    [Anonymous Symbol]                       0x00004c1c   Section        0  ti_msp_dl_config.o(.text.__NVIC_SetPriority)
-    __arm_cp.41_0                            0x00004c98   Number         4  ti_msp_dl_config.o(.text.__NVIC_SetPriority)
-    __arm_cp.41_1                            0x00004c9c   Number         4  ti_msp_dl_config.o(.text.__NVIC_SetPriority)
-    [Anonymous Symbol]                       0x00004ca0   Section        0  board.o(.text.board_init)
-    __arm_cp.2_0                             0x00004cf8   Number         4  board.o(.text.board_init)
-    __arm_cp.2_1                             0x00004cfc   Number         4  board.o(.text.board_init)
-    __arm_cp.2_2                             0x00004d00   Number         4  board.o(.text.board_init)
-    __arm_cp.2_3                             0x00004d04   Number         4  board.o(.text.board_init)
-    [Anonymous Symbol]                       0x00004d08   Section        0  board.o(.text.board_update)
-    [Anonymous Symbol]                       0x00004d14   Section        0  main.o(.text.main)
-    __arm_cp.0_0                             0x00004df0   Number         4  main.o(.text.main)
-    __arm_cp.0_1                             0x00004df4   Number         4  main.o(.text.main)
-    __arm_cp.0_2                             0x00004df8   Number         4  main.o(.text.main)
-    i._dls                                   0x00004dfc   Section        0  dcmp.o(i._dls)
-    i._fgeq                                  0x00004e12   Section        0  fcmp.o(i._fgeq)
-    i._fgr                                   0x00004e28   Section        0  fcmp.o(i._fgr)
-    i._fleq                                  0x00004e3e   Section        0  fcmp.o(i._fleq)
-    i._fls                                   0x00004e58   Section        0  fcmp.o(i._fls)
-    i.round                                  0x00004e70   Section        0  round.o(i.round)
-    x$fpl$dleqf                              0x00004f0c   Section      100  dlef.o(x$fpl$dleqf)
-    x$fpl$drleqf                             0x00004f70   Section      104  drlef.o(x$fpl$drleqf)
-    x$fpl$fadd                               0x00004fd8   Section      140  faddsub.o(x$fpl$fadd)
-    _fadd1                                   0x00004fe5   Thumb Code     0  faddsub.o(x$fpl$fadd)
-    x$fpl$fgeqf                              0x00005064   Section       84  fgef.o(x$fpl$fgeqf)
-    x$fpl$fleqf                              0x000050b8   Section       84  flef.o(x$fpl$fleqf)
-    x$fpl$fmul                               0x0000510c   Section      176  fmul.o(x$fpl$fmul)
-    x$fpl$fsub                               0x000051bc   Section      208  faddsub.o(x$fpl$fsub)
-    _fsub1                                   0x000051c9   Thumb Code     0  faddsub.o(x$fpl$fsub)
-    fdiv_tab                                 0x0000528c   Data          64  fdiv.o(.constdata)
-    .constdata                               0x0000528c   Section       64  fdiv.o(.constdata)
-    x$fpl$usenofp                            0x0000528c   Section        0  usenofp.o(x$fpl$usenofp)
-    Grayscale_GetError.weights               0x000052cc   Data           8  grayscale.o(.rodata.Grayscale_GetError.weights)
-    [Anonymous Symbol]                       0x000052cc   Section        0  grayscale.o(.rodata.Grayscale_GetError.weights)
-    gDMA_RxJY_COPYConfig                     0x00005c04   Data          24  ti_msp_dl_config.o(.rodata.gDMA_RxJY_COPYConfig)
-    [Anonymous Symbol]                       0x00005c04   Section        0  ti_msp_dl_config.o(.rodata.gDMA_RxJY_COPYConfig)
-    gDMA_TxBlueConfig                        0x00005c1c   Data          24  ti_msp_dl_config.o(.rodata.gDMA_TxBlueConfig)
-    [Anonymous Symbol]                       0x00005c1c   Section        0  ti_msp_dl_config.o(.rodata.gDMA_TxBlueConfig)
-    gPWMAClockConfig                         0x00005c34   Data           3  ti_msp_dl_config.o(.rodata.gPWMAClockConfig)
-    [Anonymous Symbol]                       0x00005c34   Section        0  ti_msp_dl_config.o(.rodata.gPWMAClockConfig)
-    gPWMAConfig                              0x00005c38   Data           8  ti_msp_dl_config.o(.rodata.gPWMAConfig)
-    [Anonymous Symbol]                       0x00005c38   Section        0  ti_msp_dl_config.o(.rodata.gPWMAConfig)
-    gPWMBClockConfig                         0x00005c40   Data           3  ti_msp_dl_config.o(.rodata.gPWMBClockConfig)
-    [Anonymous Symbol]                       0x00005c40   Section        0  ti_msp_dl_config.o(.rodata.gPWMBClockConfig)
-    gPWMBConfig                              0x00005c44   Data           8  ti_msp_dl_config.o(.rodata.gPWMBConfig)
-    [Anonymous Symbol]                       0x00005c44   Section        0  ti_msp_dl_config.o(.rodata.gPWMBConfig)
-    gTIMER_0ClockConfig                      0x00005c4c   Data           3  ti_msp_dl_config.o(.rodata.gTIMER_0ClockConfig)
-    [Anonymous Symbol]                       0x00005c4c   Section        0  ti_msp_dl_config.o(.rodata.gTIMER_0ClockConfig)
-    gTIMER_0TimerConfig                      0x00005c50   Data          20  ti_msp_dl_config.o(.rodata.gTIMER_0TimerConfig)
-    [Anonymous Symbol]                       0x00005c50   Section        0  ti_msp_dl_config.o(.rodata.gTIMER_0TimerConfig)
-    gUART1ClockConfig                        0x00005c64   Data           2  ti_msp_dl_config.o(.rodata.gUART1ClockConfig)
-    [Anonymous Symbol]                       0x00005c64   Section        0  ti_msp_dl_config.o(.rodata.gUART1ClockConfig)
-    gUART1Config                             0x00005c66   Data          10  ti_msp_dl_config.o(.rodata.gUART1Config)
-    [Anonymous Symbol]                       0x00005c66   Section        0  ti_msp_dl_config.o(.rodata.gUART1Config)
-    gUART7ClockConfig                        0x00005c70   Data           2  ti_msp_dl_config.o(.rodata.gUART7ClockConfig)
-    [Anonymous Symbol]                       0x00005c70   Section        0  ti_msp_dl_config.o(.rodata.gUART7ClockConfig)
-    gUART7Config                             0x00005c72   Data          10  ti_msp_dl_config.o(.rodata.gUART7Config)
-    [Anonymous Symbol]                       0x00005c72   Section        0  ti_msp_dl_config.o(.rodata.gUART7Config)
-    [Anonymous Symbol]                       0x00005c7c   Section        0  main.o(.rodata.str1.1)
+    Track_IsRightMarker                      0x000044ab   Thumb Code    20  track.o(.text.Track_IsRightMarker)
+    [Anonymous Symbol]                       0x000044aa   Section        0  track.o(.text.Track_IsRightMarker)
+    Track_LimitTarget                        0x000044c1   Thumb Code   100  track.o(.text.Track_LimitTarget)
+    [Anonymous Symbol]                       0x000044c0   Section        0  track.o(.text.Track_LimitTarget)
+    __arm_cp.11_0                            0x00004524   Number         4  track.o(.text.Track_LimitTarget)
+    __arm_cp.11_1                            0x00004528   Number         4  track.o(.text.Track_LimitTarget)
+    [Anonymous Symbol]                       0x0000452c   Section        0  track.o(.text.Track_OnLostLine)
+    Track_ResetControlLoops                  0x0000456d   Thumb Code    20  track.o(.text.Track_ResetControlLoops)
+    [Anonymous Symbol]                       0x0000456c   Section        0  track.o(.text.Track_ResetControlLoops)
+    __arm_cp.1_0                             0x00004580   Number         4  track.o(.text.Track_ResetControlLoops)
+    __arm_cp.1_1                             0x00004584   Number         4  track.o(.text.Track_ResetControlLoops)
+    Track_RunPreciseTurn                     0x00004589   Thumb Code   116  track.o(.text.Track_RunPreciseTurn)
+    [Anonymous Symbol]                       0x00004588   Section        0  track.o(.text.Track_RunPreciseTurn)
+    __arm_cp.7_0                             0x000045fc   Number         4  track.o(.text.Track_RunPreciseTurn)
+    __arm_cp.7_1                             0x00004600   Number         4  track.o(.text.Track_RunPreciseTurn)
+    __arm_cp.7_2                             0x00004604   Number         4  track.o(.text.Track_RunPreciseTurn)
+    __arm_cp.7_3                             0x00004608   Number         4  track.o(.text.Track_RunPreciseTurn)
+    [Anonymous Symbol]                       0x0000460c   Section        0  track.o(.text.Track_Update)
+    __arm_cp.2_0                             0x00004618   Number         4  track.o(.text.Track_Update)
+    [Anonymous Symbol]                       0x0000461c   Section        0  bluetooth.o(.text.UART1_IRQHandler)
+    __arm_cp.6_0                             0x0000463c   Number         4  bluetooth.o(.text.UART1_IRQHandler)
+    [Anonymous Symbol]                       0x00004640   Section        0  uart.o(.text.UART1_TX_DMAPump)
+    UART1_TX_DMA_IsIdle                      0x00004659   Thumb Code    68  uart.o(.text.UART1_TX_DMA_IsIdle)
+    [Anonymous Symbol]                       0x00004658   Section        0  uart.o(.text.UART1_TX_DMA_IsIdle)
+    UART1_TX_DMA_Kick                        0x0000469d   Thumb Code   196  uart.o(.text.UART1_TX_DMA_Kick)
+    [Anonymous Symbol]                       0x0000469c   Section        0  uart.o(.text.UART1_TX_DMA_Kick)
+    __arm_cp.13_0                            0x00004760   Number         4  uart.o(.text.UART1_TX_DMA_Kick)
+    __arm_cp.13_1                            0x00004764   Number         4  uart.o(.text.UART1_TX_DMA_Kick)
+    __arm_cp.13_2                            0x00004768   Number         4  uart.o(.text.UART1_TX_DMA_Kick)
+    __arm_cp.13_3                            0x0000476c   Number         4  uart.o(.text.UART1_TX_DMA_Kick)
+    __arm_cp.13_4                            0x00004770   Number         4  uart.o(.text.UART1_TX_DMA_Kick)
+    __arm_cp.13_6                            0x00004774   Number         4  uart.o(.text.UART1_TX_DMA_Kick)
+    __arm_cp.13_7                            0x00004778   Number         4  uart.o(.text.UART1_TX_DMA_Kick)
+    [Anonymous Symbol]                       0x0000477c   Section        0  uart.o(.text.UART7_RX_Available)
+    UART7_RX_DMA_Arm                         0x000047a5   Thumb Code    68  uart.o(.text.UART7_RX_DMA_Arm)
+    [Anonymous Symbol]                       0x000047a4   Section        0  uart.o(.text.UART7_RX_DMA_Arm)
+    __arm_cp.15_1                            0x000047e8   Number         4  uart.o(.text.UART7_RX_DMA_Arm)
+    __arm_cp.15_2                            0x000047ec   Number         4  uart.o(.text.UART7_RX_DMA_Arm)
+    [Anonymous Symbol]                       0x000047f0   Section        0  uart.o(.text.UART7_RX_DMA_Reset)
+    __arm_cp.4_2                             0x0000480c   Number         4  uart.o(.text.UART7_RX_DMA_Reset)
+    [Anonymous Symbol]                       0x00004810   Section        0  uart.o(.text.UART7_RX_Read)
+    __arm_cp.20_0                            0x00004888   Number         4  uart.o(.text.UART7_RX_Read)
+    __arm_cp.20_1                            0x0000488c   Number         4  uart.o(.text.UART7_RX_Read)
+    __arm_cp.20_2                            0x00004890   Number         4  uart.o(.text.UART7_RX_Read)
+    [Anonymous Symbol]                       0x00004894   Section        0  uart.o(.text.UART_Init)
+    [Anonymous Symbol]                       0x000048cc   Section        0  yawpid.o(.text.YawAnglePIDParameters)
+    [Anonymous Symbol]                       0x00004900   Section        0  yawpid.o(.text.YawAnglePID_Init)
+    __arm_cp.0_5                             0x00004934   Number         4  yawpid.o(.text.YawAnglePID_Init)
+    [Anonymous Symbol]                       0x00004938   Section        0  yawpid.o(.text.YawAngleSpeedPID_Init)
+    __arm_cp.2_0                             0x0000496c   Number         4  yawpid.o(.text.YawAngleSpeedPID_Init)
+    __arm_cp.2_1                             0x00004970   Number         4  yawpid.o(.text.YawAngleSpeedPID_Init)
+    __arm_cp.2_2                             0x00004974   Number         4  yawpid.o(.text.YawAngleSpeedPID_Init)
+    __arm_cp.2_4                             0x00004978   Number         4  yawpid.o(.text.YawAngleSpeedPID_Init)
+    __arm_cp.2_6                             0x0000497c   Number         4  yawpid.o(.text.YawAngleSpeedPID_Init)
+    [Anonymous Symbol]                       0x00004980   Section        0  yawpid.o(.text.YawAngle_Reset)
+    __arm_cp.6_1                             0x0000499c   Number         4  yawpid.o(.text.YawAngle_Reset)
+    [Anonymous Symbol]                       0x000049a0   Section        0  yawpid.o(.text.YawAngle_SetTarget)
+    [Anonymous Symbol]                       0x000049bc   Section        0  yawpid.o(.text.YawAngle_Update)
+    __arm_cp.10_0                            0x000049ec   Number         4  yawpid.o(.text.YawAngle_Update)
+    __arm_cp.10_1                            0x000049f0   Number         4  yawpid.o(.text.YawAngle_Update)
+    __arm_cp.10_2                            0x000049f4   Number         4  yawpid.o(.text.YawAngle_Update)
+    [Anonymous Symbol]                       0x000049f8   Section        0  yawpid.o(.text.YawRatePIDParameters)
+    [Anonymous Symbol]                       0x00004a2c   Section        0  yawpid.o(.text.YawRatePID_Init)
+    __arm_cp.1_0                             0x00004a60   Number         4  yawpid.o(.text.YawRatePID_Init)
+    __arm_cp.1_1                             0x00004a64   Number         4  yawpid.o(.text.YawRatePID_Init)
+    __arm_cp.1_2                             0x00004a68   Number         4  yawpid.o(.text.YawRatePID_Init)
+    __arm_cp.1_3                             0x00004a6c   Number         4  yawpid.o(.text.YawRatePID_Init)
+    __arm_cp.1_4                             0x00004a70   Number         4  yawpid.o(.text.YawRatePID_Init)
+    __arm_cp.1_5                             0x00004a74   Number         4  yawpid.o(.text.YawRatePID_Init)
+    __arm_cp.1_6                             0x00004a78   Number         4  yawpid.o(.text.YawRatePID_Init)
+    [Anonymous Symbol]                       0x00004a7c   Section        0  yawpid.o(.text.YawRate_Reset)
+    [Anonymous Symbol]                       0x00004a8c   Section        0  yawpid.o(.text.YawRate_Update)
+    __arm_cp.11_0                            0x00004aac   Number         4  yawpid.o(.text.YawRate_Update)
+    __NVIC_ClearPendingIRQ                   0x00004ab1   Thumb Code    40  encoder.o(.text.__NVIC_ClearPendingIRQ)
+    [Anonymous Symbol]                       0x00004ab0   Section        0  encoder.o(.text.__NVIC_ClearPendingIRQ)
+    __NVIC_ClearPendingIRQ                   0x00004ad9   Thumb Code    40  board.o(.text.__NVIC_ClearPendingIRQ)
+    [Anonymous Symbol]                       0x00004ad8   Section        0  board.o(.text.__NVIC_ClearPendingIRQ)
+    __NVIC_ClearPendingIRQ                   0x00004b01   Thumb Code    40  uart.o(.text.__NVIC_ClearPendingIRQ)
+    [Anonymous Symbol]                       0x00004b00   Section        0  uart.o(.text.__NVIC_ClearPendingIRQ)
+    __arm_cp.1_0                             0x00004b28   Number         4  uart.o(.text.__NVIC_ClearPendingIRQ)
+    __NVIC_DisableIRQ                        0x00004b2d   Thumb Code    48  uart.o(.text.__NVIC_DisableIRQ)
+    [Anonymous Symbol]                       0x00004b2c   Section        0  uart.o(.text.__NVIC_DisableIRQ)
+    __arm_cp.3_0                             0x00004b5c   Number         4  uart.o(.text.__NVIC_DisableIRQ)
+    __NVIC_EnableIRQ                         0x00004b61   Thumb Code    40  encoder.o(.text.__NVIC_EnableIRQ)
+    [Anonymous Symbol]                       0x00004b60   Section        0  encoder.o(.text.__NVIC_EnableIRQ)
+    __NVIC_EnableIRQ                         0x00004b89   Thumb Code    40  board.o(.text.__NVIC_EnableIRQ)
+    [Anonymous Symbol]                       0x00004b88   Section        0  board.o(.text.__NVIC_EnableIRQ)
+    __NVIC_EnableIRQ                         0x00004bb1   Thumb Code    40  uart.o(.text.__NVIC_EnableIRQ)
+    [Anonymous Symbol]                       0x00004bb0   Section        0  uart.o(.text.__NVIC_EnableIRQ)
+    __arm_cp.2_0                             0x00004bd8   Number         4  uart.o(.text.__NVIC_EnableIRQ)
+    __NVIC_SetPriority                       0x00004bdd   Thumb Code   124  ti_msp_dl_config.o(.text.__NVIC_SetPriority)
+    [Anonymous Symbol]                       0x00004bdc   Section        0  ti_msp_dl_config.o(.text.__NVIC_SetPriority)
+    __arm_cp.41_0                            0x00004c58   Number         4  ti_msp_dl_config.o(.text.__NVIC_SetPriority)
+    __arm_cp.41_1                            0x00004c5c   Number         4  ti_msp_dl_config.o(.text.__NVIC_SetPriority)
+    [Anonymous Symbol]                       0x00004c60   Section        0  board.o(.text.board_init)
+    __arm_cp.2_0                             0x00004cb8   Number         4  board.o(.text.board_init)
+    __arm_cp.2_1                             0x00004cbc   Number         4  board.o(.text.board_init)
+    __arm_cp.2_2                             0x00004cc0   Number         4  board.o(.text.board_init)
+    __arm_cp.2_3                             0x00004cc4   Number         4  board.o(.text.board_init)
+    [Anonymous Symbol]                       0x00004cc8   Section        0  board.o(.text.board_update)
+    [Anonymous Symbol]                       0x00004cd4   Section        0  main.o(.text.main)
+    __arm_cp.0_0                             0x00004db0   Number         4  main.o(.text.main)
+    __arm_cp.0_1                             0x00004db4   Number         4  main.o(.text.main)
+    __arm_cp.0_2                             0x00004db8   Number         4  main.o(.text.main)
+    i._dls                                   0x00004dbc   Section        0  dcmp.o(i._dls)
+    i._fgeq                                  0x00004dd2   Section        0  fcmp.o(i._fgeq)
+    i._fgr                                   0x00004de8   Section        0  fcmp.o(i._fgr)
+    i._fleq                                  0x00004dfe   Section        0  fcmp.o(i._fleq)
+    i._fls                                   0x00004e18   Section        0  fcmp.o(i._fls)
+    i.round                                  0x00004e30   Section        0  round.o(i.round)
+    x$fpl$dleqf                              0x00004ecc   Section      100  dlef.o(x$fpl$dleqf)
+    x$fpl$drleqf                             0x00004f30   Section      104  drlef.o(x$fpl$drleqf)
+    x$fpl$fadd                               0x00004f98   Section      140  faddsub.o(x$fpl$fadd)
+    _fadd1                                   0x00004fa5   Thumb Code     0  faddsub.o(x$fpl$fadd)
+    x$fpl$fgeqf                              0x00005024   Section       84  fgef.o(x$fpl$fgeqf)
+    x$fpl$fleqf                              0x00005078   Section       84  flef.o(x$fpl$fleqf)
+    x$fpl$fmul                               0x000050cc   Section      176  fmul.o(x$fpl$fmul)
+    x$fpl$fsub                               0x0000517c   Section      208  faddsub.o(x$fpl$fsub)
+    _fsub1                                   0x00005189   Thumb Code     0  faddsub.o(x$fpl$fsub)
+    fdiv_tab                                 0x0000524c   Data          64  fdiv.o(.constdata)
+    .constdata                               0x0000524c   Section       64  fdiv.o(.constdata)
+    x$fpl$usenofp                            0x0000524c   Section        0  usenofp.o(x$fpl$usenofp)
+    Grayscale_GetError.weights               0x0000528c   Data           8  grayscale.o(.rodata.Grayscale_GetError.weights)
+    [Anonymous Symbol]                       0x0000528c   Section        0  grayscale.o(.rodata.Grayscale_GetError.weights)
+    gDMA_RxJY_COPYConfig                     0x00005bc4   Data          24  ti_msp_dl_config.o(.rodata.gDMA_RxJY_COPYConfig)
+    [Anonymous Symbol]                       0x00005bc4   Section        0  ti_msp_dl_config.o(.rodata.gDMA_RxJY_COPYConfig)
+    gDMA_TxBlueConfig                        0x00005bdc   Data          24  ti_msp_dl_config.o(.rodata.gDMA_TxBlueConfig)
+    [Anonymous Symbol]                       0x00005bdc   Section        0  ti_msp_dl_config.o(.rodata.gDMA_TxBlueConfig)
+    gPWMAClockConfig                         0x00005bf4   Data           3  ti_msp_dl_config.o(.rodata.gPWMAClockConfig)
+    [Anonymous Symbol]                       0x00005bf4   Section        0  ti_msp_dl_config.o(.rodata.gPWMAClockConfig)
+    gPWMAConfig                              0x00005bf8   Data           8  ti_msp_dl_config.o(.rodata.gPWMAConfig)
+    [Anonymous Symbol]                       0x00005bf8   Section        0  ti_msp_dl_config.o(.rodata.gPWMAConfig)
+    gPWMBClockConfig                         0x00005c00   Data           3  ti_msp_dl_config.o(.rodata.gPWMBClockConfig)
+    [Anonymous Symbol]                       0x00005c00   Section        0  ti_msp_dl_config.o(.rodata.gPWMBClockConfig)
+    gPWMBConfig                              0x00005c04   Data           8  ti_msp_dl_config.o(.rodata.gPWMBConfig)
+    [Anonymous Symbol]                       0x00005c04   Section        0  ti_msp_dl_config.o(.rodata.gPWMBConfig)
+    gTIMER_0ClockConfig                      0x00005c0c   Data           3  ti_msp_dl_config.o(.rodata.gTIMER_0ClockConfig)
+    [Anonymous Symbol]                       0x00005c0c   Section        0  ti_msp_dl_config.o(.rodata.gTIMER_0ClockConfig)
+    gTIMER_0TimerConfig                      0x00005c10   Data          20  ti_msp_dl_config.o(.rodata.gTIMER_0TimerConfig)
+    [Anonymous Symbol]                       0x00005c10   Section        0  ti_msp_dl_config.o(.rodata.gTIMER_0TimerConfig)
+    gUART1ClockConfig                        0x00005c24   Data           2  ti_msp_dl_config.o(.rodata.gUART1ClockConfig)
+    [Anonymous Symbol]                       0x00005c24   Section        0  ti_msp_dl_config.o(.rodata.gUART1ClockConfig)
+    gUART1Config                             0x00005c26   Data          10  ti_msp_dl_config.o(.rodata.gUART1Config)
+    [Anonymous Symbol]                       0x00005c26   Section        0  ti_msp_dl_config.o(.rodata.gUART1Config)
+    gUART7ClockConfig                        0x00005c30   Data           2  ti_msp_dl_config.o(.rodata.gUART7ClockConfig)
+    [Anonymous Symbol]                       0x00005c30   Section        0  ti_msp_dl_config.o(.rodata.gUART7ClockConfig)
+    gUART7Config                             0x00005c32   Data          10  ti_msp_dl_config.o(.rodata.gUART7Config)
+    [Anonymous Symbol]                       0x00005c32   Section        0  ti_msp_dl_config.o(.rodata.gUART7Config)
+    [Anonymous Symbol]                       0x00005c3c   Section        0  main.o(.rodata.str1.1)
     .bss                                     0x20200048   Section       96  libspace.o(.bss)
     Encoder                                  0x202000a8   Data          32  encoder.o(.bss.Encoder)
     [Anonymous Symbol]                       0x202000a8   Section        0  encoder.o(.bss.Encoder)
@@ -5081,88 +5081,88 @@ Image Symbol Table
     [Anonymous Symbol]                       0x202000cc   Section        0  jy901.o(.bss.JY901_Data.ucRxBuffer)
     JY901_Data.ucRxCnt                       0x202000d7   Data           1  jy901.o(.bss.JY901_Data.ucRxCnt)
     [Anonymous Symbol]                       0x202000d7   Section        0  jy901.o(.bss.JY901_Data.ucRxCnt)
-    TIMA1_IRQHandler.div10                   0x202004f0   Data           1  board.o(.bss.TIMA1_IRQHandler.div10)
-    [Anonymous Symbol]                       0x202004f0   Section        0  board.o(.bss.TIMA1_IRQHandler.div10)
-    angle_speed_pid                          0x202004f4   Data          44  yawpid.o(.bss.angle_speed_pid)
-    [Anonymous Symbol]                       0x202004f4   Section        0  yawpid.o(.bss.angle_speed_pid)
-    gUart1TxBusy                             0x20200698   Data           1  uart.o(.bss.gUart1TxBusy)
-    [Anonymous Symbol]                       0x20200698   Section        0  uart.o(.bss.gUart1TxBusy)
-    gUart1TxFIFObuf                          0x20200699   Data         256  uart.o(.bss.gUart1TxFIFObuf)
-    [Anonymous Symbol]                       0x20200699   Section        0  uart.o(.bss.gUart1TxFIFObuf)
-    gUart1TxHead                             0x2020079a   Data           2  uart.o(.bss.gUart1TxHead)
-    [Anonymous Symbol]                       0x2020079a   Section        0  uart.o(.bss.gUart1TxHead)
-    gUart1TxShadow                           0x2020079c   Data         256  uart.o(.bss.gUart1TxShadow)
-    [Anonymous Symbol]                       0x2020079c   Section        0  uart.o(.bss.gUart1TxShadow)
-    gUart1TxShadowLen                        0x2020089c   Data           2  uart.o(.bss.gUart1TxShadowLen)
-    [Anonymous Symbol]                       0x2020089c   Section        0  uart.o(.bss.gUart1TxShadowLen)
-    gUart1TxTail                             0x2020089e   Data           2  uart.o(.bss.gUart1TxTail)
-    [Anonymous Symbol]                       0x2020089e   Section        0  uart.o(.bss.gUart1TxTail)
-    gUart7RxFIFO                             0x202008a0   Data         256  uart.o(.bss.gUart7RxFIFO)
-    [Anonymous Symbol]                       0x202008a0   Section        0  uart.o(.bss.gUart7RxFIFO)
-    gUart7RxHead                             0x202009a0   Data           2  uart.o(.bss.gUart7RxHead)
-    [Anonymous Symbol]                       0x202009a0   Section        0  uart.o(.bss.gUart7RxHead)
-    gUart7RxLineBuf                          0x202009a2   Data          16  uart.o(.bss.gUart7RxLineBuf)
-    [Anonymous Symbol]                       0x202009a2   Section        0  uart.o(.bss.gUart7RxLineBuf)
-    gUart7RxTail                             0x202009b2   Data           2  uart.o(.bss.gUart7RxTail)
-    [Anonymous Symbol]                       0x202009b2   Section        0  uart.o(.bss.gUart7RxTail)
-    g_acc_g                                  0x202009b4   Data          12  jy901.o(.bss.g_acc_g)
-    [Anonymous Symbol]                       0x202009b4   Section        0  jy901.o(.bss.g_acc_g)
-    g_active_base_speed                      0x202009c0   Data           4  track.o(.bss.g_active_base_speed)
-    [Anonymous Symbol]                       0x202009c0   Section        0  track.o(.bss.g_active_base_speed)
-    g_angle_deg                              0x202009c4   Data          12  jy901.o(.bss.g_angle_deg)
-    [Anonymous Symbol]                       0x202009c4   Section        0  jy901.o(.bss.g_angle_deg)
-    g_gyro_dps                               0x202009d4   Data          12  jy901.o(.bss.g_gyro_dps)
-    [Anonymous Symbol]                       0x202009d4   Section        0  jy901.o(.bss.g_gyro_dps)
-    g_last_left_output                       0x202009e0   Data           4  motor.o(.bss.g_last_left_output)
-    [Anonymous Symbol]                       0x202009e0   Section        0  motor.o(.bss.g_last_left_output)
-    g_last_right_output                      0x202009e4   Data           4  motor.o(.bss.g_last_right_output)
-    [Anonymous Symbol]                       0x202009e4   Section        0  motor.o(.bss.g_last_right_output)
-    g_last_weighted_sum                      0x202009e8   Data           2  track.o(.bss.g_last_weighted_sum)
-    [Anonymous Symbol]                       0x202009e8   Section        0  track.o(.bss.g_last_weighted_sum)
-    g_marker_armed                           0x202009ea   Data           1  track.o(.bss.g_marker_armed)
-    [Anonymous Symbol]                       0x202009ea   Section        0  track.o(.bss.g_marker_armed)
-    g_marker_candidate_side                  0x202009eb   Data           1  track.o(.bss.g_marker_candidate_side)
-    [Anonymous Symbol]                       0x202009eb   Section        0  track.o(.bss.g_marker_candidate_side)
-    g_marker_confirm_cycles                  0x202009ec   Data           1  track.o(.bss.g_marker_confirm_cycles)
-    [Anonymous Symbol]                       0x202009ec   Section        0  track.o(.bss.g_marker_confirm_cycles)
-    g_marker_side                            0x202009ed   Data           1  track.o(.bss.g_marker_side)
-    [Anonymous Symbol]                       0x202009ed   Section        0  track.o(.bss.g_marker_side)
-    g_ready_acc                              0x202009ee   Data           1  jy901.o(.bss.g_ready_acc)
-    [Anonymous Symbol]                       0x202009ee   Section        0  jy901.o(.bss.g_ready_acc)
-    g_ready_angle                            0x202009ef   Data           1  jy901.o(.bss.g_ready_angle)
-    [Anonymous Symbol]                       0x202009ef   Section        0  jy901.o(.bss.g_ready_angle)
-    g_ready_gyro                             0x202009f0   Data           1  jy901.o(.bss.g_ready_gyro)
-    [Anonymous Symbol]                       0x202009f0   Section        0  jy901.o(.bss.g_ready_gyro)
-    g_rx_checksum                            0x202009f1   Data           1  bluetooth.o(.bss.g_rx_checksum)
-    [Anonymous Symbol]                       0x202009f1   Section        0  bluetooth.o(.bss.g_rx_checksum)
-    g_rx_float_bytes                         0x202009f2   Data           4  bluetooth.o(.bss.g_rx_float_bytes)
-    [Anonymous Symbol]                       0x202009f2   Section        0  bluetooth.o(.bss.g_rx_float_bytes)
-    g_rx_id                                  0x202009f6   Data           1  bluetooth.o(.bss.g_rx_id)
-    [Anonymous Symbol]                       0x202009f6   Section        0  bluetooth.o(.bss.g_rx_id)
-    g_rx_index                               0x202009f7   Data           1  bluetooth.o(.bss.g_rx_index)
-    [Anonymous Symbol]                       0x202009f7   Section        0  bluetooth.o(.bss.g_rx_index)
-    g_rx_state                               0x202009f8   Data           1  bluetooth.o(.bss.g_rx_state)
-    [Anonymous Symbol]                       0x202009f8   Section        0  bluetooth.o(.bss.g_rx_state)
-    g_state                                  0x202009f9   Data           1  track.o(.bss.g_state)
-    [Anonymous Symbol]                       0x202009f9   Section        0  track.o(.bss.g_state)
-    g_straight_cycles                        0x202009fa   Data           2  track.o(.bss.g_straight_cycles)
-    [Anonymous Symbol]                       0x202009fa   Section        0  track.o(.bss.g_straight_cycles)
-    g_turn_cycles                            0x20200a00   Data           2  track.o(.bss.g_turn_cycles)
-    [Anonymous Symbol]                       0x20200a00   Section        0  track.o(.bss.g_turn_cycles)
-    gray_error                               0x20200a04   Data           4  grayscalepid.o(.bss.gray_error)
-    [Anonymous Symbol]                       0x20200a04   Section        0  grayscalepid.o(.bss.gray_error)
-    gray_pid                                 0x20200a08   Data          44  grayscalepid.o(.bss.gray_pid)
-    [Anonymous Symbol]                       0x20200a08   Section        0  grayscalepid.o(.bss.gray_pid)
-    pid_module_initialized                   0x20200a34   Data           1  pid.o(.bss.pid_module_initialized)
-    [Anonymous Symbol]                       0x20200a34   Section        0  pid.o(.bss.pid_module_initialized)
-    yaw_angle_error                          0x20200ae0   Data           4  yawpid.o(.bss.yaw_angle_error)
-    [Anonymous Symbol]                       0x20200ae0   Section        0  yawpid.o(.bss.yaw_angle_error)
-    yaw_angle_pid                            0x20200ae4   Data          44  yawpid.o(.bss.yaw_angle_pid)
-    [Anonymous Symbol]                       0x20200ae4   Section        0  yawpid.o(.bss.yaw_angle_pid)
-    yaw_rate_pid                             0x20200b10   Data          44  yawpid.o(.bss.yaw_rate_pid)
-    [Anonymous Symbol]                       0x20200b10   Section        0  yawpid.o(.bss.yaw_rate_pid)
-    yaw_target                               0x20200b3c   Data           4  yawpid.o(.bss.yaw_target)
-    [Anonymous Symbol]                       0x20200b3c   Section        0  yawpid.o(.bss.yaw_target)
+    TIMA1_IRQHandler.div10                   0x202004ec   Data           1  board.o(.bss.TIMA1_IRQHandler.div10)
+    [Anonymous Symbol]                       0x202004ec   Section        0  board.o(.bss.TIMA1_IRQHandler.div10)
+    angle_speed_pid                          0x202004f0   Data          44  yawpid.o(.bss.angle_speed_pid)
+    [Anonymous Symbol]                       0x202004f0   Section        0  yawpid.o(.bss.angle_speed_pid)
+    gUart1TxBusy                             0x20200694   Data           1  uart.o(.bss.gUart1TxBusy)
+    [Anonymous Symbol]                       0x20200694   Section        0  uart.o(.bss.gUart1TxBusy)
+    gUart1TxFIFObuf                          0x20200695   Data         256  uart.o(.bss.gUart1TxFIFObuf)
+    [Anonymous Symbol]                       0x20200695   Section        0  uart.o(.bss.gUart1TxFIFObuf)
+    gUart1TxHead                             0x20200796   Data           2  uart.o(.bss.gUart1TxHead)
+    [Anonymous Symbol]                       0x20200796   Section        0  uart.o(.bss.gUart1TxHead)
+    gUart1TxShadow                           0x20200798   Data         256  uart.o(.bss.gUart1TxShadow)
+    [Anonymous Symbol]                       0x20200798   Section        0  uart.o(.bss.gUart1TxShadow)
+    gUart1TxShadowLen                        0x20200898   Data           2  uart.o(.bss.gUart1TxShadowLen)
+    [Anonymous Symbol]                       0x20200898   Section        0  uart.o(.bss.gUart1TxShadowLen)
+    gUart1TxTail                             0x2020089a   Data           2  uart.o(.bss.gUart1TxTail)
+    [Anonymous Symbol]                       0x2020089a   Section        0  uart.o(.bss.gUart1TxTail)
+    gUart7RxFIFO                             0x2020089c   Data         256  uart.o(.bss.gUart7RxFIFO)
+    [Anonymous Symbol]                       0x2020089c   Section        0  uart.o(.bss.gUart7RxFIFO)
+    gUart7RxHead                             0x2020099c   Data           2  uart.o(.bss.gUart7RxHead)
+    [Anonymous Symbol]                       0x2020099c   Section        0  uart.o(.bss.gUart7RxHead)
+    gUart7RxLineBuf                          0x2020099e   Data          16  uart.o(.bss.gUart7RxLineBuf)
+    [Anonymous Symbol]                       0x2020099e   Section        0  uart.o(.bss.gUart7RxLineBuf)
+    gUart7RxTail                             0x202009ae   Data           2  uart.o(.bss.gUart7RxTail)
+    [Anonymous Symbol]                       0x202009ae   Section        0  uart.o(.bss.gUart7RxTail)
+    g_acc_g                                  0x202009b0   Data          12  jy901.o(.bss.g_acc_g)
+    [Anonymous Symbol]                       0x202009b0   Section        0  jy901.o(.bss.g_acc_g)
+    g_active_base_speed                      0x202009bc   Data           4  track.o(.bss.g_active_base_speed)
+    [Anonymous Symbol]                       0x202009bc   Section        0  track.o(.bss.g_active_base_speed)
+    g_angle_deg                              0x202009c0   Data          12  jy901.o(.bss.g_angle_deg)
+    [Anonymous Symbol]                       0x202009c0   Section        0  jy901.o(.bss.g_angle_deg)
+    g_gyro_dps                               0x202009d0   Data          12  jy901.o(.bss.g_gyro_dps)
+    [Anonymous Symbol]                       0x202009d0   Section        0  jy901.o(.bss.g_gyro_dps)
+    g_last_left_output                       0x202009dc   Data           4  motor.o(.bss.g_last_left_output)
+    [Anonymous Symbol]                       0x202009dc   Section        0  motor.o(.bss.g_last_left_output)
+    g_last_right_output                      0x202009e0   Data           4  motor.o(.bss.g_last_right_output)
+    [Anonymous Symbol]                       0x202009e0   Section        0  motor.o(.bss.g_last_right_output)
+    g_last_weighted_sum                      0x202009e4   Data           2  track.o(.bss.g_last_weighted_sum)
+    [Anonymous Symbol]                       0x202009e4   Section        0  track.o(.bss.g_last_weighted_sum)
+    g_marker_armed                           0x202009e6   Data           1  track.o(.bss.g_marker_armed)
+    [Anonymous Symbol]                       0x202009e6   Section        0  track.o(.bss.g_marker_armed)
+    g_marker_candidate_side                  0x202009e7   Data           1  track.o(.bss.g_marker_candidate_side)
+    [Anonymous Symbol]                       0x202009e7   Section        0  track.o(.bss.g_marker_candidate_side)
+    g_marker_confirm_cycles                  0x202009e8   Data           1  track.o(.bss.g_marker_confirm_cycles)
+    [Anonymous Symbol]                       0x202009e8   Section        0  track.o(.bss.g_marker_confirm_cycles)
+    g_marker_side                            0x202009e9   Data           1  track.o(.bss.g_marker_side)
+    [Anonymous Symbol]                       0x202009e9   Section        0  track.o(.bss.g_marker_side)
+    g_ready_acc                              0x202009ea   Data           1  jy901.o(.bss.g_ready_acc)
+    [Anonymous Symbol]                       0x202009ea   Section        0  jy901.o(.bss.g_ready_acc)
+    g_ready_angle                            0x202009eb   Data           1  jy901.o(.bss.g_ready_angle)
+    [Anonymous Symbol]                       0x202009eb   Section        0  jy901.o(.bss.g_ready_angle)
+    g_ready_gyro                             0x202009ec   Data           1  jy901.o(.bss.g_ready_gyro)
+    [Anonymous Symbol]                       0x202009ec   Section        0  jy901.o(.bss.g_ready_gyro)
+    g_rx_checksum                            0x202009ed   Data           1  bluetooth.o(.bss.g_rx_checksum)
+    [Anonymous Symbol]                       0x202009ed   Section        0  bluetooth.o(.bss.g_rx_checksum)
+    g_rx_float_bytes                         0x202009ee   Data           4  bluetooth.o(.bss.g_rx_float_bytes)
+    [Anonymous Symbol]                       0x202009ee   Section        0  bluetooth.o(.bss.g_rx_float_bytes)
+    g_rx_id                                  0x202009f2   Data           1  bluetooth.o(.bss.g_rx_id)
+    [Anonymous Symbol]                       0x202009f2   Section        0  bluetooth.o(.bss.g_rx_id)
+    g_rx_index                               0x202009f3   Data           1  bluetooth.o(.bss.g_rx_index)
+    [Anonymous Symbol]                       0x202009f3   Section        0  bluetooth.o(.bss.g_rx_index)
+    g_rx_state                               0x202009f4   Data           1  bluetooth.o(.bss.g_rx_state)
+    [Anonymous Symbol]                       0x202009f4   Section        0  bluetooth.o(.bss.g_rx_state)
+    g_state                                  0x202009f5   Data           1  track.o(.bss.g_state)
+    [Anonymous Symbol]                       0x202009f5   Section        0  track.o(.bss.g_state)
+    g_straight_cycles                        0x202009f6   Data           2  track.o(.bss.g_straight_cycles)
+    [Anonymous Symbol]                       0x202009f6   Section        0  track.o(.bss.g_straight_cycles)
+    g_turn_cycles                            0x202009fc   Data           2  track.o(.bss.g_turn_cycles)
+    [Anonymous Symbol]                       0x202009fc   Section        0  track.o(.bss.g_turn_cycles)
+    gray_error                               0x20200a00   Data           4  grayscalepid.o(.bss.gray_error)
+    [Anonymous Symbol]                       0x20200a00   Section        0  grayscalepid.o(.bss.gray_error)
+    gray_pid                                 0x20200a04   Data          44  grayscalepid.o(.bss.gray_pid)
+    [Anonymous Symbol]                       0x20200a04   Section        0  grayscalepid.o(.bss.gray_pid)
+    pid_module_initialized                   0x20200a30   Data           1  pid.o(.bss.pid_module_initialized)
+    [Anonymous Symbol]                       0x20200a30   Section        0  pid.o(.bss.pid_module_initialized)
+    yaw_angle_error                          0x20200adc   Data           4  yawpid.o(.bss.yaw_angle_error)
+    [Anonymous Symbol]                       0x20200adc   Section        0  yawpid.o(.bss.yaw_angle_error)
+    yaw_angle_pid                            0x20200ae0   Data          44  yawpid.o(.bss.yaw_angle_pid)
+    [Anonymous Symbol]                       0x20200ae0   Section        0  yawpid.o(.bss.yaw_angle_pid)
+    yaw_rate_pid                             0x20200b0c   Data          44  yawpid.o(.bss.yaw_rate_pid)
+    [Anonymous Symbol]                       0x20200b0c   Section        0  yawpid.o(.bss.yaw_rate_pid)
+    yaw_target                               0x20200b38   Data           4  yawpid.o(.bss.yaw_target)
+    [Anonymous Symbol]                       0x20200b38   Section        0  yawpid.o(.bss.yaw_target)
     Heap_Mem                                 0x20200b40   Data           0  startup_mspm0g351x_uvision.o(HEAP)
     Stack_Mem                                0x20200b40   Data        4096  startup_mspm0g351x_uvision.o(STACK)
     HEAP                                     0x20200b40   Section        0  startup_mspm0g351x_uvision.o(HEAP)
@@ -5439,74 +5439,75 @@ Image Symbol Table
     Track_Control                            0x00004295   Thumb Code   300  track.o(.text.Track_Control)
     Track_GetState                           0x00004421   Thumb Code     8  track.o(.text.Track_GetState)
     Track_Init                               0x00004429   Thumb Code    60  track.o(.text.Track_Init)
-    Track_OnLostLine                         0x0000456d   Thumb Code    64  track.o(.text.Track_OnLostLine)
-    Track_Update                             0x0000464d   Thumb Code    12  track.o(.text.Track_Update)
-    UART1_IRQHandler                         0x0000465d   Thumb Code    32  bluetooth.o(.text.UART1_IRQHandler)
-    UART1_TX_DMAPump                         0x00004681   Thumb Code    24  uart.o(.text.UART1_TX_DMAPump)
-    UART7_RX_Available                       0x000047bd   Thumb Code    40  uart.o(.text.UART7_RX_Available)
-    UART7_RX_DMA_Reset                       0x00004831   Thumb Code    28  uart.o(.text.UART7_RX_DMA_Reset)
-    UART7_RX_Read                            0x00004851   Thumb Code   120  uart.o(.text.UART7_RX_Read)
-    UART_Init                                0x000048d5   Thumb Code    54  uart.o(.text.UART_Init)
-    YawAnglePIDParameters                    0x0000490d   Thumb Code    52  yawpid.o(.text.YawAnglePIDParameters)
-    YawAnglePID_Init                         0x00004941   Thumb Code    52  yawpid.o(.text.YawAnglePID_Init)
-    YawAngleSpeedPID_Init                    0x00004979   Thumb Code    52  yawpid.o(.text.YawAngleSpeedPID_Init)
-    YawAngle_Reset                           0x000049c1   Thumb Code    28  yawpid.o(.text.YawAngle_Reset)
-    YawAngle_SetTarget                       0x000049e1   Thumb Code    28  yawpid.o(.text.YawAngle_SetTarget)
-    YawAngle_Update                          0x000049fd   Thumb Code    48  yawpid.o(.text.YawAngle_Update)
-    YawRatePIDParameters                     0x00004a39   Thumb Code    52  yawpid.o(.text.YawRatePIDParameters)
-    YawRatePID_Init                          0x00004a6d   Thumb Code    52  yawpid.o(.text.YawRatePID_Init)
-    YawRate_Reset                            0x00004abd   Thumb Code    16  yawpid.o(.text.YawRate_Reset)
-    YawRate_Update                           0x00004acd   Thumb Code    32  yawpid.o(.text.YawRate_Update)
-    board_init                               0x00004ca1   Thumb Code    88  board.o(.text.board_init)
-    board_update                             0x00004d09   Thumb Code    12  board.o(.text.board_update)
-    main                                     0x00004d15   Thumb Code   220  main.o(.text.main)
-    __aeabi_dcmplt                           0x00004dfd   Thumb Code     0  dcmp.o(i._dls)
-    _dls                                     0x00004dfd   Thumb Code    22  dcmp.o(i._dls)
-    __aeabi_fcmpge                           0x00004e13   Thumb Code     0  fcmp.o(i._fgeq)
-    _fgeq                                    0x00004e13   Thumb Code    22  fcmp.o(i._fgeq)
-    __aeabi_fcmpgt                           0x00004e29   Thumb Code     0  fcmp.o(i._fgr)
-    _fgr                                     0x00004e29   Thumb Code    22  fcmp.o(i._fgr)
-    __aeabi_fcmple                           0x00004e3f   Thumb Code     0  fcmp.o(i._fleq)
-    _fleq                                    0x00004e3f   Thumb Code    26  fcmp.o(i._fleq)
-    __aeabi_fcmplt                           0x00004e59   Thumb Code     0  fcmp.o(i._fls)
-    _fls                                     0x00004e59   Thumb Code    22  fcmp.o(i._fls)
-    round                                    0x00004e71   Thumb Code   142  round.o(i.round)
-    __aeabi_cdcmple                          0x00004f0d   Thumb Code     0  dlef.o(x$fpl$dleqf)
-    _dcmple                                  0x00004f0d   Thumb Code    94  dlef.o(x$fpl$dleqf)
-    __aeabi_cdrcmple                         0x00004f71   Thumb Code     0  drlef.o(x$fpl$drleqf)
-    _drcmple                                 0x00004f71   Thumb Code   100  drlef.o(x$fpl$drleqf)
-    __aeabi_fadd                             0x00004fd9   Thumb Code     0  faddsub.o(x$fpl$fadd)
-    _fadd                                    0x00004fd9   Thumb Code   134  faddsub.o(x$fpl$fadd)
-    _fcmpge                                  0x00005065   Thumb Code    78  fgef.o(x$fpl$fgeqf)
-    __aeabi_cfcmple                          0x000050b9   Thumb Code     0  flef.o(x$fpl$fleqf)
-    _fcmple                                  0x000050b9   Thumb Code    78  flef.o(x$fpl$fleqf)
-    __aeabi_fmul                             0x0000510d   Thumb Code     0  fmul.o(x$fpl$fmul)
-    _fmul                                    0x0000510d   Thumb Code   172  fmul.o(x$fpl$fmul)
-    __aeabi_fsub                             0x000051bd   Thumb Code     0  faddsub.o(x$fpl$fsub)
-    _fsub                                    0x000051bd   Thumb Code   204  faddsub.o(x$fpl$fsub)
-    __I$use$fp                               0x0000528c   Number         0  usenofp.o(x$fpl$usenofp)
-    OLED_CF16x16                             0x000052d4   Data         259  oled_data.o(.rodata.OLED_CF16x16)
-    OLED_F6x8                                0x000053d7   Data         570  oled_data.o(.rodata.OLED_F6x8)
-    OLED_F8x16                               0x00005611   Data        1520  oled_data.o(.rodata.OLED_F8x16)
-    Region$$Table$$Base                      0x00005c98   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x00005cb8   Number         0  anon$$obj.o(Region$$Table)
+    Track_OnLostLine                         0x0000452d   Thumb Code    64  track.o(.text.Track_OnLostLine)
+    Track_Update                             0x0000460d   Thumb Code    12  track.o(.text.Track_Update)
+    UART1_IRQHandler                         0x0000461d   Thumb Code    32  bluetooth.o(.text.UART1_IRQHandler)
+    UART1_TX_DMAPump                         0x00004641   Thumb Code    24  uart.o(.text.UART1_TX_DMAPump)
+    UART7_RX_Available                       0x0000477d   Thumb Code    40  uart.o(.text.UART7_RX_Available)
+    UART7_RX_DMA_Reset                       0x000047f1   Thumb Code    28  uart.o(.text.UART7_RX_DMA_Reset)
+    UART7_RX_Read                            0x00004811   Thumb Code   120  uart.o(.text.UART7_RX_Read)
+    UART_Init                                0x00004895   Thumb Code    54  uart.o(.text.UART_Init)
+    YawAnglePIDParameters                    0x000048cd   Thumb Code    52  yawpid.o(.text.YawAnglePIDParameters)
+    YawAnglePID_Init                         0x00004901   Thumb Code    52  yawpid.o(.text.YawAnglePID_Init)
+    YawAngleSpeedPID_Init                    0x00004939   Thumb Code    52  yawpid.o(.text.YawAngleSpeedPID_Init)
+    YawAngle_Reset                           0x00004981   Thumb Code    28  yawpid.o(.text.YawAngle_Reset)
+    YawAngle_SetTarget                       0x000049a1   Thumb Code    28  yawpid.o(.text.YawAngle_SetTarget)
+    YawAngle_Update                          0x000049bd   Thumb Code    48  yawpid.o(.text.YawAngle_Update)
+    YawRatePIDParameters                     0x000049f9   Thumb Code    52  yawpid.o(.text.YawRatePIDParameters)
+    YawRatePID_Init                          0x00004a2d   Thumb Code    52  yawpid.o(.text.YawRatePID_Init)
+    YawRate_Reset                            0x00004a7d   Thumb Code    16  yawpid.o(.text.YawRate_Reset)
+    YawRate_Update                           0x00004a8d   Thumb Code    32  yawpid.o(.text.YawRate_Update)
+    board_init                               0x00004c61   Thumb Code    88  board.o(.text.board_init)
+    board_update                             0x00004cc9   Thumb Code    12  board.o(.text.board_update)
+    main                                     0x00004cd5   Thumb Code   220  main.o(.text.main)
+    __aeabi_dcmplt                           0x00004dbd   Thumb Code     0  dcmp.o(i._dls)
+    _dls                                     0x00004dbd   Thumb Code    22  dcmp.o(i._dls)
+    __aeabi_fcmpge                           0x00004dd3   Thumb Code     0  fcmp.o(i._fgeq)
+    _fgeq                                    0x00004dd3   Thumb Code    22  fcmp.o(i._fgeq)
+    __aeabi_fcmpgt                           0x00004de9   Thumb Code     0  fcmp.o(i._fgr)
+    _fgr                                     0x00004de9   Thumb Code    22  fcmp.o(i._fgr)
+    __aeabi_fcmple                           0x00004dff   Thumb Code     0  fcmp.o(i._fleq)
+    _fleq                                    0x00004dff   Thumb Code    26  fcmp.o(i._fleq)
+    __aeabi_fcmplt                           0x00004e19   Thumb Code     0  fcmp.o(i._fls)
+    _fls                                     0x00004e19   Thumb Code    22  fcmp.o(i._fls)
+    round                                    0x00004e31   Thumb Code   142  round.o(i.round)
+    __aeabi_cdcmple                          0x00004ecd   Thumb Code     0  dlef.o(x$fpl$dleqf)
+    _dcmple                                  0x00004ecd   Thumb Code    94  dlef.o(x$fpl$dleqf)
+    __aeabi_cdrcmple                         0x00004f31   Thumb Code     0  drlef.o(x$fpl$drleqf)
+    _drcmple                                 0x00004f31   Thumb Code   100  drlef.o(x$fpl$drleqf)
+    __aeabi_fadd                             0x00004f99   Thumb Code     0  faddsub.o(x$fpl$fadd)
+    _fadd                                    0x00004f99   Thumb Code   134  faddsub.o(x$fpl$fadd)
+    _fcmpge                                  0x00005025   Thumb Code    78  fgef.o(x$fpl$fgeqf)
+    __aeabi_cfcmple                          0x00005079   Thumb Code     0  flef.o(x$fpl$fleqf)
+    _fcmple                                  0x00005079   Thumb Code    78  flef.o(x$fpl$fleqf)
+    __aeabi_fmul                             0x000050cd   Thumb Code     0  fmul.o(x$fpl$fmul)
+    _fmul                                    0x000050cd   Thumb Code   172  fmul.o(x$fpl$fmul)
+    __aeabi_fsub                             0x0000517d   Thumb Code     0  faddsub.o(x$fpl$fsub)
+    _fsub                                    0x0000517d   Thumb Code   204  faddsub.o(x$fpl$fsub)
+    __I$use$fp                               0x0000524c   Number         0  usenofp.o(x$fpl$usenofp)
+    OLED_CF16x16                             0x00005294   Data         259  oled_data.o(.rodata.OLED_CF16x16)
+    OLED_F6x8                                0x00005397   Data         570  oled_data.o(.rodata.OLED_F6x8)
+    OLED_F8x16                               0x000055d1   Data        1520  oled_data.o(.rodata.OLED_F8x16)
+    Region$$Table$$Base                      0x00005c58   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x00005c78   Number         0  anon$$obj.o(Region$$Table)
     GRAY_D_FILTER_ALPHA                      0x20200000   Data           4  grayscalepid.o(.data.GRAY_D_FILTER_ALPHA)
     Ki_spd                                   0x20200004   Data           4  speedpid.o(.data.Ki_spd)
-    Ki_yaw_rate                              0x20200008   Data           4  yawpid.o(.data.Ki_yaw_rate)
-    Kp_gray                                  0x2020000c   Data           4  grayscalepid.o(.data.Kp_gray)
-    Kp_spd                                   0x20200010   Data           4  speedpid.o(.data.Kp_spd)
-    Kp_yaw_angle                             0x20200014   Data           4  yawpid.o(.data.Kp_yaw_angle)
-    Kp_yaw_rate                              0x20200018   Data           4  yawpid.o(.data.Kp_yaw_rate)
-    PID_CONTROL_DT                           0x2020001c   Data           4  pid.o(.data.PID_CONTROL_DT)
-    SPD_D_FILTER_ALPHA                       0x20200020   Data           4  speedpid.o(.data.SPD_D_FILTER_ALPHA)
-    SPD_I_MAX                                0x20200024   Data           4  speedpid.o(.data.SPD_I_MAX)
-    SPD_OUTPUT_MAX                           0x20200028   Data           4  speedpid.o(.data.SPD_OUTPUT_MAX)
-    TURN_SPEED_MAX                           0x2020002c   Data           4  pid.o(.data.TURN_SPEED_MAX)
-    YAW_ANGLE_D_FILTER_ALPHA                 0x20200030   Data           4  yawpid.o(.data.YAW_ANGLE_D_FILTER_ALPHA)
-    YAW_ANGLE_I_MAX                          0x20200034   Data           4  yawpid.o(.data.YAW_ANGLE_I_MAX)
-    YAW_RATE_D_FILTER_ALPHA                  0x20200038   Data           4  yawpid.o(.data.YAW_RATE_D_FILTER_ALPHA)
-    YAW_RATE_I_MAX                           0x2020003c   Data           4  yawpid.o(.data.YAW_RATE_I_MAX)
-    YAW_RATE_TARGET_MAX                      0x20200040   Data           4  yawpid.o(.data.YAW_RATE_TARGET_MAX)
+    Ki_yaw_angle                             0x20200008   Data           4  yawpid.o(.data.Ki_yaw_angle)
+    Ki_yaw_rate                              0x2020000c   Data           4  yawpid.o(.data.Ki_yaw_rate)
+    Kp_gray                                  0x20200010   Data           4  grayscalepid.o(.data.Kp_gray)
+    Kp_spd                                   0x20200014   Data           4  speedpid.o(.data.Kp_spd)
+    Kp_yaw_angle                             0x20200018   Data           4  yawpid.o(.data.Kp_yaw_angle)
+    Kp_yaw_rate                              0x2020001c   Data           4  yawpid.o(.data.Kp_yaw_rate)
+    PID_CONTROL_DT                           0x20200020   Data           4  pid.o(.data.PID_CONTROL_DT)
+    SPD_D_FILTER_ALPHA                       0x20200024   Data           4  speedpid.o(.data.SPD_D_FILTER_ALPHA)
+    SPD_I_MAX                                0x20200028   Data           4  speedpid.o(.data.SPD_I_MAX)
+    SPD_OUTPUT_MAX                           0x2020002c   Data           4  speedpid.o(.data.SPD_OUTPUT_MAX)
+    TURN_SPEED_MAX                           0x20200030   Data           4  pid.o(.data.TURN_SPEED_MAX)
+    YAW_ANGLE_D_FILTER_ALPHA                 0x20200034   Data           4  yawpid.o(.data.YAW_ANGLE_D_FILTER_ALPHA)
+    YAW_ANGLE_I_MAX                          0x20200038   Data           4  yawpid.o(.data.YAW_ANGLE_I_MAX)
+    YAW_RATE_D_FILTER_ALPHA                  0x2020003c   Data           4  yawpid.o(.data.YAW_RATE_D_FILTER_ALPHA)
+    YAW_RATE_I_MAX                           0x20200040   Data           4  yawpid.o(.data.YAW_RATE_I_MAX)
+    YAW_RATE_TARGET_MAX                      0x20200044   Data           4  yawpid.o(.data.YAW_RATE_TARGET_MAX)
     __libspace_start                         0x20200048   Data          96  libspace.o(.bss)
     __temporary_stack_top$libspace           0x202000a8   Data           0  libspace.o(.bss)
     GRAY_I_MAX                               0x202000c8   Data           4  grayscalepid.o(.bss.GRAY_I_MAX)
@@ -5515,24 +5516,23 @@ Image Symbol Table
     Kd_yaw_angle                             0x202000e0   Data           4  yawpid.o(.bss.Kd_yaw_angle)
     Kd_yaw_rate                              0x202000e4   Data           4  yawpid.o(.bss.Kd_yaw_rate)
     Ki_gray                                  0x202000e8   Data           4  grayscalepid.o(.bss.Ki_gray)
-    Ki_yaw_angle                             0x202000ec   Data           4  yawpid.o(.bss.Ki_yaw_angle)
-    OLED_DisplayBuf                          0x202000f0   Data        1024  oled.o(.bss.OLED_DisplayBuf)
-    gPWMABackup                              0x20200520   Data         188  ti_msp_dl_config.o(.bss.gPWMABackup)
-    gTIMER_0Backup                           0x202005dc   Data         188  ti_msp_dl_config.o(.bss.gTIMER_0Backup)
-    g_enc_isr                                0x202009d0   Data           4  encoder.o(.bss.g_enc_isr)
-    g_tick_ms                                0x202009fc   Data           4  board.o(.bss.g_tick_ms)
-    speed_left_pid                           0x20200a38   Data          44  speedpid.o(.bss.speed_left_pid)
-    speed_right_pid                          0x20200a64   Data          44  speedpid.o(.bss.speed_right_pid)
-    stcAcc                                   0x20200a90   Data           8  jy901.o(.bss.stcAcc)
-    stcAngle                                 0x20200a98   Data           8  jy901.o(.bss.stcAngle)
-    stcDStatus                               0x20200aa0   Data           8  jy901.o(.bss.stcDStatus)
-    stcGPSV                                  0x20200aa8   Data           8  jy901.o(.bss.stcGPSV)
-    stcGyro                                  0x20200ab0   Data           8  jy901.o(.bss.stcGyro)
-    stcLonLat                                0x20200ab8   Data           8  jy901.o(.bss.stcLonLat)
-    stcMag                                   0x20200ac0   Data           8  jy901.o(.bss.stcMag)
-    stcPress                                 0x20200ac8   Data           8  jy901.o(.bss.stcPress)
-    stcQ                                     0x20200ad0   Data           8  jy901.o(.bss.stcQ)
-    stcTime                                  0x20200ad8   Data           8  jy901.o(.bss.stcTime)
+    OLED_DisplayBuf                          0x202000ec   Data        1024  oled.o(.bss.OLED_DisplayBuf)
+    gPWMABackup                              0x2020051c   Data         188  ti_msp_dl_config.o(.bss.gPWMABackup)
+    gTIMER_0Backup                           0x202005d8   Data         188  ti_msp_dl_config.o(.bss.gTIMER_0Backup)
+    g_enc_isr                                0x202009cc   Data           4  encoder.o(.bss.g_enc_isr)
+    g_tick_ms                                0x202009f8   Data           4  board.o(.bss.g_tick_ms)
+    speed_left_pid                           0x20200a34   Data          44  speedpid.o(.bss.speed_left_pid)
+    speed_right_pid                          0x20200a60   Data          44  speedpid.o(.bss.speed_right_pid)
+    stcAcc                                   0x20200a8c   Data           8  jy901.o(.bss.stcAcc)
+    stcAngle                                 0x20200a94   Data           8  jy901.o(.bss.stcAngle)
+    stcDStatus                               0x20200a9c   Data           8  jy901.o(.bss.stcDStatus)
+    stcGPSV                                  0x20200aa4   Data           8  jy901.o(.bss.stcGPSV)
+    stcGyro                                  0x20200aac   Data           8  jy901.o(.bss.stcGyro)
+    stcLonLat                                0x20200ab4   Data           8  jy901.o(.bss.stcLonLat)
+    stcMag                                   0x20200abc   Data           8  jy901.o(.bss.stcMag)
+    stcPress                                 0x20200ac4   Data           8  jy901.o(.bss.stcPress)
+    stcQ                                     0x20200acc   Data           8  jy901.o(.bss.stcQ)
+    stcTime                                  0x20200ad4   Data           8  jy901.o(.bss.stcTime)
 
 
 
@@ -5542,9 +5542,9 @@ Memory Map of the image
 
   Image Entry point : 0x000000c1
 
-  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x00005d00, Max: 0x00080000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x00005cc0, Max: 0x00080000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x00005cb8, Max: 0x00080000, ABSOLUTE)
+    Execution Region ER_IROM1 (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x00005c78, Max: 0x00080000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -5809,108 +5809,108 @@ Memory Map of the image
     0x00004420   0x00004420   0x00000008   Code   RO         1733    .text.Track_GetState  track.o
     0x00004428   0x00004428   0x00000058   Code   RO         1715    .text.Track_Init    track.o
     0x00004480   0x00004480   0x00000016   Code   RO         1739    .text.Track_IsCenter  track.o
-    0x00004496   0x00004496   0x00000034   Code   RO         1741    .text.Track_IsLeftMarker  track.o
-    0x000044ca   0x000044ca   0x00000034   Code   RO         1743    .text.Track_IsRightMarker  track.o
-    0x000044fe   0x000044fe   0x00000002   PAD
-    0x00004500   0x00004500   0x0000006c   Code   RO         1737    .text.Track_LimitTarget  track.o
-    0x0000456c   0x0000456c   0x00000040   Code   RO         1723    .text.Track_OnLostLine  track.o
-    0x000045ac   0x000045ac   0x0000001c   Code   RO         1717    .text.Track_ResetControlLoops  track.o
-    0x000045c8   0x000045c8   0x00000084   Code   RO         1729    .text.Track_RunPreciseTurn  track.o
-    0x0000464c   0x0000464c   0x00000010   Code   RO         1719    .text.Track_Update  track.o
-    0x0000465c   0x0000465c   0x00000024   Code   RO         1662    .text.UART1_IRQHandler  bluetooth.o
-    0x00004680   0x00004680   0x00000018   Code   RO         1783    .text.UART1_TX_DMAPump  uart.o
-    0x00004698   0x00004698   0x00000044   Code   RO         1785    .text.UART1_TX_DMA_IsIdle  uart.o
-    0x000046dc   0x000046dc   0x000000e0   Code   RO         1787    .text.UART1_TX_DMA_Kick  uart.o
-    0x000047bc   0x000047bc   0x00000028   Code   RO         1799    .text.UART7_RX_Available  uart.o
-    0x000047e4   0x000047e4   0x0000004c   Code   RO         1791    .text.UART7_RX_DMA_Arm  uart.o
-    0x00004830   0x00004830   0x00000020   Code   RO         1769    .text.UART7_RX_DMA_Reset  uart.o
-    0x00004850   0x00004850   0x00000084   Code   RO         1801    .text.UART7_RX_Read  uart.o
-    0x000048d4   0x000048d4   0x00000036   Code   RO         1761    .text.UART_Init     uart.o
-    0x0000490a   0x0000490a   0x00000002   PAD
-    0x0000490c   0x0000490c   0x00000034   Code   RO         1899    .text.YawAnglePIDParameters  yawpid.o
-    0x00004940   0x00004940   0x00000038   Code   RO         1893    .text.YawAnglePID_Init  yawpid.o
-    0x00004978   0x00004978   0x00000048   Code   RO         1897    .text.YawAngleSpeedPID_Init  yawpid.o
-    0x000049c0   0x000049c0   0x00000020   Code   RO         1905    .text.YawAngle_Reset  yawpid.o
-    0x000049e0   0x000049e0   0x0000001c   Code   RO         1903    .text.YawAngle_SetTarget  yawpid.o
-    0x000049fc   0x000049fc   0x0000003c   Code   RO         1913    .text.YawAngle_Update  yawpid.o
-    0x00004a38   0x00004a38   0x00000034   Code   RO         1901    .text.YawRatePIDParameters  yawpid.o
-    0x00004a6c   0x00004a6c   0x00000050   Code   RO         1895    .text.YawRatePID_Init  yawpid.o
-    0x00004abc   0x00004abc   0x00000010   Code   RO         1907    .text.YawRate_Reset  yawpid.o
-    0x00004acc   0x00004acc   0x00000024   Code   RO         1915    .text.YawRate_Update  yawpid.o
-    0x00004af0   0x00004af0   0x00000028   Code   RO         1603    .text.__NVIC_ClearPendingIRQ  encoder.o
-    0x00004b18   0x00004b18   0x00000028   Code   RO         1688    .text.__NVIC_ClearPendingIRQ  board.o
-    0x00004b40   0x00004b40   0x0000002c   Code   RO         1763    .text.__NVIC_ClearPendingIRQ  uart.o
-    0x00004b6c   0x00004b6c   0x00000034   Code   RO         1767    .text.__NVIC_DisableIRQ  uart.o
-    0x00004ba0   0x00004ba0   0x00000028   Code   RO         1605    .text.__NVIC_EnableIRQ  encoder.o
-    0x00004bc8   0x00004bc8   0x00000028   Code   RO         1690    .text.__NVIC_EnableIRQ  board.o
-    0x00004bf0   0x00004bf0   0x0000002c   Code   RO         1765    .text.__NVIC_EnableIRQ  uart.o
-    0x00004c1c   0x00004c1c   0x00000084   Code   RO         1372    .text.__NVIC_SetPriority  ti_msp_dl_config.o
-    0x00004ca0   0x00004ca0   0x00000068   Code   RO         1684    .text.board_init    board.o
-    0x00004d08   0x00004d08   0x0000000c   Code   RO         1692    .text.board_update  board.o
-    0x00004d14   0x00004d14   0x000000e8   Code   RO         1280    .text.main          main.o
-    0x00004dfc   0x00004dfc   0x00000016   Code   RO         2028    i._dls              fz_ps.l(dcmp.o)
-    0x00004e12   0x00004e12   0x00000016   Code   RO         2056    i._fgeq             fz_ps.l(fcmp.o)
-    0x00004e28   0x00004e28   0x00000016   Code   RO         2057    i._fgr              fz_ps.l(fcmp.o)
-    0x00004e3e   0x00004e3e   0x0000001a   Code   RO         2058    i._fleq             fz_ps.l(fcmp.o)
-    0x00004e58   0x00004e58   0x00000016   Code   RO         2059    i._fls              fz_ps.l(fcmp.o)
-    0x00004e6e   0x00004e6e   0x00000002   PAD
-    0x00004e70   0x00004e70   0x0000009c   Code   RO         2080    i.round             m_ps.l(round.o)
-    0x00004f0c   0x00004f0c   0x00000064   Code   RO         2184    x$fpl$dleqf         fz_ps.l(dlef.o)
-    0x00004f70   0x00004f70   0x00000068   Code   RO         2186    x$fpl$drleqf        fz_ps.l(drlef.o)
-    0x00004fd8   0x00004fd8   0x0000008c   Code   RO         2049    x$fpl$fadd          fz_ps.l(faddsub.o)
-    0x00005064   0x00005064   0x00000054   Code   RO         2192    x$fpl$fgeqf         fz_ps.l(fgef.o)
-    0x000050b8   0x000050b8   0x00000054   Code   RO         2194    x$fpl$fleqf         fz_ps.l(flef.o)
-    0x0000510c   0x0000510c   0x000000b0   Code   RO         2074    x$fpl$fmul          fz_ps.l(fmul.o)
-    0x000051bc   0x000051bc   0x000000d0   Code   RO         2051    x$fpl$fsub          fz_ps.l(faddsub.o)
-    0x0000528c   0x0000528c   0x00000000   Code   RO         2204    x$fpl$usenofp       fz_ps.l(usenofp.o)
-    0x0000528c   0x0000528c   0x00000040   Data   RO         2068    .constdata          fz_ps.l(fdiv.o)
-    0x000052cc   0x000052cc   0x00000008   Data   RO         1642    .rodata.Grayscale_GetError.weights  grayscale.o
-    0x000052d4   0x000052d4   0x00000103   Data   RO         1513    .rodata.OLED_CF16x16  oled_data.o
-    0x000053d7   0x000053d7   0x0000023a   Data   RO         1512    .rodata.OLED_F6x8   oled_data.o
-    0x00005611   0x00005611   0x000005f0   Data   RO         1511    .rodata.OLED_F8x16  oled_data.o
-    0x00005c01   0x00005c01   0x00000003   PAD
-    0x00005c04   0x00005c04   0x00000018   Data   RO         1407    .rodata.gDMA_RxJY_COPYConfig  ti_msp_dl_config.o
-    0x00005c1c   0x00005c1c   0x00000018   Data   RO         1406    .rodata.gDMA_TxBlueConfig  ti_msp_dl_config.o
-    0x00005c34   0x00005c34   0x00000003   Data   RO         1396    .rodata.gPWMAClockConfig  ti_msp_dl_config.o
-    0x00005c37   0x00005c37   0x00000001   PAD
-    0x00005c38   0x00005c38   0x00000008   Data   RO         1397    .rodata.gPWMAConfig  ti_msp_dl_config.o
-    0x00005c40   0x00005c40   0x00000003   Data   RO         1398    .rodata.gPWMBClockConfig  ti_msp_dl_config.o
-    0x00005c43   0x00005c43   0x00000001   PAD
-    0x00005c44   0x00005c44   0x00000008   Data   RO         1399    .rodata.gPWMBConfig  ti_msp_dl_config.o
-    0x00005c4c   0x00005c4c   0x00000003   Data   RO         1400    .rodata.gTIMER_0ClockConfig  ti_msp_dl_config.o
-    0x00005c4f   0x00005c4f   0x00000001   PAD
-    0x00005c50   0x00005c50   0x00000014   Data   RO         1401    .rodata.gTIMER_0TimerConfig  ti_msp_dl_config.o
-    0x00005c64   0x00005c64   0x00000002   Data   RO         1402    .rodata.gUART1ClockConfig  ti_msp_dl_config.o
-    0x00005c66   0x00005c66   0x0000000a   Data   RO         1403    .rodata.gUART1Config  ti_msp_dl_config.o
-    0x00005c70   0x00005c70   0x00000002   Data   RO         1404    .rodata.gUART7ClockConfig  ti_msp_dl_config.o
-    0x00005c72   0x00005c72   0x0000000a   Data   RO         1405    .rodata.gUART7Config  ti_msp_dl_config.o
-    0x00005c7c   0x00005c7c   0x00000018   Data   RO         1282    .rodata.str1.1      main.o
-    0x00005c94   0x00005c94   0x00000004   PAD
-    0x00005c98   0x00005c98   0x00000020   Data   RO         2469    Region$$Table       anon$$obj.o
+    0x00004496   0x00004496   0x00000014   Code   RO         1741    .text.Track_IsLeftMarker  track.o
+    0x000044aa   0x000044aa   0x00000014   Code   RO         1743    .text.Track_IsRightMarker  track.o
+    0x000044be   0x000044be   0x00000002   PAD
+    0x000044c0   0x000044c0   0x0000006c   Code   RO         1737    .text.Track_LimitTarget  track.o
+    0x0000452c   0x0000452c   0x00000040   Code   RO         1723    .text.Track_OnLostLine  track.o
+    0x0000456c   0x0000456c   0x0000001c   Code   RO         1717    .text.Track_ResetControlLoops  track.o
+    0x00004588   0x00004588   0x00000084   Code   RO         1729    .text.Track_RunPreciseTurn  track.o
+    0x0000460c   0x0000460c   0x00000010   Code   RO         1719    .text.Track_Update  track.o
+    0x0000461c   0x0000461c   0x00000024   Code   RO         1662    .text.UART1_IRQHandler  bluetooth.o
+    0x00004640   0x00004640   0x00000018   Code   RO         1783    .text.UART1_TX_DMAPump  uart.o
+    0x00004658   0x00004658   0x00000044   Code   RO         1785    .text.UART1_TX_DMA_IsIdle  uart.o
+    0x0000469c   0x0000469c   0x000000e0   Code   RO         1787    .text.UART1_TX_DMA_Kick  uart.o
+    0x0000477c   0x0000477c   0x00000028   Code   RO         1799    .text.UART7_RX_Available  uart.o
+    0x000047a4   0x000047a4   0x0000004c   Code   RO         1791    .text.UART7_RX_DMA_Arm  uart.o
+    0x000047f0   0x000047f0   0x00000020   Code   RO         1769    .text.UART7_RX_DMA_Reset  uart.o
+    0x00004810   0x00004810   0x00000084   Code   RO         1801    .text.UART7_RX_Read  uart.o
+    0x00004894   0x00004894   0x00000036   Code   RO         1761    .text.UART_Init     uart.o
+    0x000048ca   0x000048ca   0x00000002   PAD
+    0x000048cc   0x000048cc   0x00000034   Code   RO         1899    .text.YawAnglePIDParameters  yawpid.o
+    0x00004900   0x00004900   0x00000038   Code   RO         1893    .text.YawAnglePID_Init  yawpid.o
+    0x00004938   0x00004938   0x00000048   Code   RO         1897    .text.YawAngleSpeedPID_Init  yawpid.o
+    0x00004980   0x00004980   0x00000020   Code   RO         1905    .text.YawAngle_Reset  yawpid.o
+    0x000049a0   0x000049a0   0x0000001c   Code   RO         1903    .text.YawAngle_SetTarget  yawpid.o
+    0x000049bc   0x000049bc   0x0000003c   Code   RO         1913    .text.YawAngle_Update  yawpid.o
+    0x000049f8   0x000049f8   0x00000034   Code   RO         1901    .text.YawRatePIDParameters  yawpid.o
+    0x00004a2c   0x00004a2c   0x00000050   Code   RO         1895    .text.YawRatePID_Init  yawpid.o
+    0x00004a7c   0x00004a7c   0x00000010   Code   RO         1907    .text.YawRate_Reset  yawpid.o
+    0x00004a8c   0x00004a8c   0x00000024   Code   RO         1915    .text.YawRate_Update  yawpid.o
+    0x00004ab0   0x00004ab0   0x00000028   Code   RO         1603    .text.__NVIC_ClearPendingIRQ  encoder.o
+    0x00004ad8   0x00004ad8   0x00000028   Code   RO         1688    .text.__NVIC_ClearPendingIRQ  board.o
+    0x00004b00   0x00004b00   0x0000002c   Code   RO         1763    .text.__NVIC_ClearPendingIRQ  uart.o
+    0x00004b2c   0x00004b2c   0x00000034   Code   RO         1767    .text.__NVIC_DisableIRQ  uart.o
+    0x00004b60   0x00004b60   0x00000028   Code   RO         1605    .text.__NVIC_EnableIRQ  encoder.o
+    0x00004b88   0x00004b88   0x00000028   Code   RO         1690    .text.__NVIC_EnableIRQ  board.o
+    0x00004bb0   0x00004bb0   0x0000002c   Code   RO         1765    .text.__NVIC_EnableIRQ  uart.o
+    0x00004bdc   0x00004bdc   0x00000084   Code   RO         1372    .text.__NVIC_SetPriority  ti_msp_dl_config.o
+    0x00004c60   0x00004c60   0x00000068   Code   RO         1684    .text.board_init    board.o
+    0x00004cc8   0x00004cc8   0x0000000c   Code   RO         1692    .text.board_update  board.o
+    0x00004cd4   0x00004cd4   0x000000e8   Code   RO         1280    .text.main          main.o
+    0x00004dbc   0x00004dbc   0x00000016   Code   RO         2028    i._dls              fz_ps.l(dcmp.o)
+    0x00004dd2   0x00004dd2   0x00000016   Code   RO         2056    i._fgeq             fz_ps.l(fcmp.o)
+    0x00004de8   0x00004de8   0x00000016   Code   RO         2057    i._fgr              fz_ps.l(fcmp.o)
+    0x00004dfe   0x00004dfe   0x0000001a   Code   RO         2058    i._fleq             fz_ps.l(fcmp.o)
+    0x00004e18   0x00004e18   0x00000016   Code   RO         2059    i._fls              fz_ps.l(fcmp.o)
+    0x00004e2e   0x00004e2e   0x00000002   PAD
+    0x00004e30   0x00004e30   0x0000009c   Code   RO         2080    i.round             m_ps.l(round.o)
+    0x00004ecc   0x00004ecc   0x00000064   Code   RO         2184    x$fpl$dleqf         fz_ps.l(dlef.o)
+    0x00004f30   0x00004f30   0x00000068   Code   RO         2186    x$fpl$drleqf        fz_ps.l(drlef.o)
+    0x00004f98   0x00004f98   0x0000008c   Code   RO         2049    x$fpl$fadd          fz_ps.l(faddsub.o)
+    0x00005024   0x00005024   0x00000054   Code   RO         2192    x$fpl$fgeqf         fz_ps.l(fgef.o)
+    0x00005078   0x00005078   0x00000054   Code   RO         2194    x$fpl$fleqf         fz_ps.l(flef.o)
+    0x000050cc   0x000050cc   0x000000b0   Code   RO         2074    x$fpl$fmul          fz_ps.l(fmul.o)
+    0x0000517c   0x0000517c   0x000000d0   Code   RO         2051    x$fpl$fsub          fz_ps.l(faddsub.o)
+    0x0000524c   0x0000524c   0x00000000   Code   RO         2204    x$fpl$usenofp       fz_ps.l(usenofp.o)
+    0x0000524c   0x0000524c   0x00000040   Data   RO         2068    .constdata          fz_ps.l(fdiv.o)
+    0x0000528c   0x0000528c   0x00000008   Data   RO         1642    .rodata.Grayscale_GetError.weights  grayscale.o
+    0x00005294   0x00005294   0x00000103   Data   RO         1513    .rodata.OLED_CF16x16  oled_data.o
+    0x00005397   0x00005397   0x0000023a   Data   RO         1512    .rodata.OLED_F6x8   oled_data.o
+    0x000055d1   0x000055d1   0x000005f0   Data   RO         1511    .rodata.OLED_F8x16  oled_data.o
+    0x00005bc1   0x00005bc1   0x00000003   PAD
+    0x00005bc4   0x00005bc4   0x00000018   Data   RO         1407    .rodata.gDMA_RxJY_COPYConfig  ti_msp_dl_config.o
+    0x00005bdc   0x00005bdc   0x00000018   Data   RO         1406    .rodata.gDMA_TxBlueConfig  ti_msp_dl_config.o
+    0x00005bf4   0x00005bf4   0x00000003   Data   RO         1396    .rodata.gPWMAClockConfig  ti_msp_dl_config.o
+    0x00005bf7   0x00005bf7   0x00000001   PAD
+    0x00005bf8   0x00005bf8   0x00000008   Data   RO         1397    .rodata.gPWMAConfig  ti_msp_dl_config.o
+    0x00005c00   0x00005c00   0x00000003   Data   RO         1398    .rodata.gPWMBClockConfig  ti_msp_dl_config.o
+    0x00005c03   0x00005c03   0x00000001   PAD
+    0x00005c04   0x00005c04   0x00000008   Data   RO         1399    .rodata.gPWMBConfig  ti_msp_dl_config.o
+    0x00005c0c   0x00005c0c   0x00000003   Data   RO         1400    .rodata.gTIMER_0ClockConfig  ti_msp_dl_config.o
+    0x00005c0f   0x00005c0f   0x00000001   PAD
+    0x00005c10   0x00005c10   0x00000014   Data   RO         1401    .rodata.gTIMER_0TimerConfig  ti_msp_dl_config.o
+    0x00005c24   0x00005c24   0x00000002   Data   RO         1402    .rodata.gUART1ClockConfig  ti_msp_dl_config.o
+    0x00005c26   0x00005c26   0x0000000a   Data   RO         1403    .rodata.gUART1Config  ti_msp_dl_config.o
+    0x00005c30   0x00005c30   0x00000002   Data   RO         1404    .rodata.gUART7ClockConfig  ti_msp_dl_config.o
+    0x00005c32   0x00005c32   0x0000000a   Data   RO         1405    .rodata.gUART7Config  ti_msp_dl_config.o
+    0x00005c3c   0x00005c3c   0x00000018   Data   RO         1282    .rodata.str1.1      main.o
+    0x00005c54   0x00005c54   0x00000004   PAD
+    0x00005c58   0x00005c58   0x00000020   Data   RO         2469    Region$$Table       anon$$obj.o
 
 
-    Execution Region RW_IRAM1 (Exec base: 0x20200000, Load base: 0x00005cb8, Size: 0x00001b40, Max: 0x00010000, ABSOLUTE)
+    Execution Region RW_IRAM1 (Exec base: 0x20200000, Load base: 0x00005c78, Size: 0x00001b40, Max: 0x00010000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20200000   0x00005cb8   0x00000004   Data   RW         1960    .data.GRAY_D_FILTER_ALPHA  grayscalepid.o
-    0x20200004   0x00005cbc   0x00000004   Data   RW         1879    .data.Ki_spd        speedpid.o
-    0x20200008   0x00005cc0   0x00000004   Data   RW         1928    .data.Ki_yaw_rate   yawpid.o
-    0x2020000c   0x00005cc4   0x00000004   Data   RW         1956    .data.Kp_gray       grayscalepid.o
-    0x20200010   0x00005cc8   0x00000004   Data   RW         1878    .data.Kp_spd        speedpid.o
-    0x20200014   0x00005ccc   0x00000004   Data   RW         1921    .data.Kp_yaw_angle  yawpid.o
-    0x20200018   0x00005cd0   0x00000004   Data   RW         1927    .data.Kp_yaw_rate   yawpid.o
-    0x2020001c   0x00005cd4   0x00000004   Data   RW         1858    .data.PID_CONTROL_DT  pid.o
-    0x20200020   0x00005cd8   0x00000004   Data   RW         1883    .data.SPD_D_FILTER_ALPHA  speedpid.o
-    0x20200024   0x00005cdc   0x00000004   Data   RW         1881    .data.SPD_I_MAX     speedpid.o
-    0x20200028   0x00005ce0   0x00000004   Data   RW         1882    .data.SPD_OUTPUT_MAX  speedpid.o
-    0x2020002c   0x00005ce4   0x00000004   Data   RW         1859    .data.TURN_SPEED_MAX  pid.o
-    0x20200030   0x00005ce8   0x00000004   Data   RW         1926    .data.YAW_ANGLE_D_FILTER_ALPHA  yawpid.o
-    0x20200034   0x00005cec   0x00000004   Data   RW         1924    .data.YAW_ANGLE_I_MAX  yawpid.o
-    0x20200038   0x00005cf0   0x00000004   Data   RW         1931    .data.YAW_RATE_D_FILTER_ALPHA  yawpid.o
-    0x2020003c   0x00005cf4   0x00000004   Data   RW         1930    .data.YAW_RATE_I_MAX  yawpid.o
-    0x20200040   0x00005cf8   0x00000004   Data   RW         1925    .data.YAW_RATE_TARGET_MAX  yawpid.o
-    0x20200044   0x00005cfc   0x00000004   PAD
+    0x20200000   0x00005c78   0x00000004   Data   RW         1960    .data.GRAY_D_FILTER_ALPHA  grayscalepid.o
+    0x20200004   0x00005c7c   0x00000004   Data   RW         1879    .data.Ki_spd        speedpid.o
+    0x20200008   0x00005c80   0x00000004   Data   RW         1922    .data.Ki_yaw_angle  yawpid.o
+    0x2020000c   0x00005c84   0x00000004   Data   RW         1928    .data.Ki_yaw_rate   yawpid.o
+    0x20200010   0x00005c88   0x00000004   Data   RW         1956    .data.Kp_gray       grayscalepid.o
+    0x20200014   0x00005c8c   0x00000004   Data   RW         1878    .data.Kp_spd        speedpid.o
+    0x20200018   0x00005c90   0x00000004   Data   RW         1921    .data.Kp_yaw_angle  yawpid.o
+    0x2020001c   0x00005c94   0x00000004   Data   RW         1927    .data.Kp_yaw_rate   yawpid.o
+    0x20200020   0x00005c98   0x00000004   Data   RW         1858    .data.PID_CONTROL_DT  pid.o
+    0x20200024   0x00005c9c   0x00000004   Data   RW         1883    .data.SPD_D_FILTER_ALPHA  speedpid.o
+    0x20200028   0x00005ca0   0x00000004   Data   RW         1881    .data.SPD_I_MAX     speedpid.o
+    0x2020002c   0x00005ca4   0x00000004   Data   RW         1882    .data.SPD_OUTPUT_MAX  speedpid.o
+    0x20200030   0x00005ca8   0x00000004   Data   RW         1859    .data.TURN_SPEED_MAX  pid.o
+    0x20200034   0x00005cac   0x00000004   Data   RW         1926    .data.YAW_ANGLE_D_FILTER_ALPHA  yawpid.o
+    0x20200038   0x00005cb0   0x00000004   Data   RW         1924    .data.YAW_ANGLE_I_MAX  yawpid.o
+    0x2020003c   0x00005cb4   0x00000004   Data   RW         1931    .data.YAW_RATE_D_FILTER_ALPHA  yawpid.o
+    0x20200040   0x00005cb8   0x00000004   Data   RW         1930    .data.YAW_RATE_I_MAX  yawpid.o
+    0x20200044   0x00005cbc   0x00000004   Data   RW         1925    .data.YAW_RATE_TARGET_MAX  yawpid.o
     0x20200048        -       0x00000060   Zero   RW         2280    .bss                c_p.l(libspace.o)
     0x202000a8        -       0x00000020   Zero   RW         1624    .bss.Encoder        encoder.o
     0x202000c8        -       0x00000004   Zero   RW         1959    .bss.GRAY_I_MAX     grayscalepid.o
@@ -5921,74 +5921,74 @@ Memory Map of the image
     0x202000e0        -       0x00000004   Zero   RW         1923    .bss.Kd_yaw_angle   yawpid.o
     0x202000e4        -       0x00000004   Zero   RW         1929    .bss.Kd_yaw_rate    yawpid.o
     0x202000e8        -       0x00000004   Zero   RW         1957    .bss.Ki_gray        grayscalepid.o
-    0x202000ec        -       0x00000004   Zero   RW         1922    .bss.Ki_yaw_angle   yawpid.o
-    0x202000f0        -       0x00000400   Zero   RW         1502    .bss.OLED_DisplayBuf  oled.o
-    0x202004f0        -       0x00000001   Zero   RW         1707    .bss.TIMA1_IRQHandler.div10  board.o
-    0x202004f1   0x00005cfc   0x00000003   PAD
-    0x202004f4        -       0x0000002c   Zero   RW         1934    .bss.angle_speed_pid  yawpid.o
-    0x20200520        -       0x000000bc   Zero   RW         1394    .bss.gPWMABackup    ti_msp_dl_config.o
-    0x202005dc        -       0x000000bc   Zero   RW         1395    .bss.gTIMER_0Backup  ti_msp_dl_config.o
-    0x20200698        -       0x00000001   Zero   RW         1818    .bss.gUart1TxBusy   uart.o
-    0x20200699        -       0x00000100   Zero   RW         1817    .bss.gUart1TxFIFObuf  uart.o
-    0x20200799   0x00005cfc   0x00000001   PAD
-    0x2020079a        -       0x00000002   Zero   RW         1815    .bss.gUart1TxHead   uart.o
-    0x2020079c        -       0x00000100   Zero   RW         1823    .bss.gUart1TxShadow  uart.o
-    0x2020089c        -       0x00000002   Zero   RW         1822    .bss.gUart1TxShadowLen  uart.o
-    0x2020089e        -       0x00000002   Zero   RW         1816    .bss.gUart1TxTail   uart.o
-    0x202008a0        -       0x00000100   Zero   RW         1821    .bss.gUart7RxFIFO   uart.o
-    0x202009a0        -       0x00000002   Zero   RW         1819    .bss.gUart7RxHead   uart.o
-    0x202009a2        -       0x00000010   Zero   RW         1824    .bss.gUart7RxLineBuf  uart.o
-    0x202009b2        -       0x00000002   Zero   RW         1820    .bss.gUart7RxTail   uart.o
-    0x202009b4        -       0x0000000c   Zero   RW         1573    .bss.g_acc_g        jy901.o
-    0x202009c0        -       0x00000004   Zero   RW         1753    .bss.g_active_base_speed  track.o
-    0x202009c4        -       0x0000000c   Zero   RW         1575    .bss.g_angle_deg    jy901.o
-    0x202009d0        -       0x00000004   Zero   RW         1623    .bss.g_enc_isr      encoder.o
-    0x202009d4        -       0x0000000c   Zero   RW         1574    .bss.g_gyro_dps     jy901.o
-    0x202009e0        -       0x00000004   Zero   RW         1552    .bss.g_last_left_output  motor.o
-    0x202009e4        -       0x00000004   Zero   RW         1553    .bss.g_last_right_output  motor.o
-    0x202009e8        -       0x00000002   Zero   RW         1752    .bss.g_last_weighted_sum  track.o
-    0x202009ea        -       0x00000001   Zero   RW         1747    .bss.g_marker_armed  track.o
-    0x202009eb        -       0x00000001   Zero   RW         1748    .bss.g_marker_candidate_side  track.o
-    0x202009ec        -       0x00000001   Zero   RW         1749    .bss.g_marker_confirm_cycles  track.o
-    0x202009ed        -       0x00000001   Zero   RW         1746    .bss.g_marker_side  track.o
-    0x202009ee        -       0x00000001   Zero   RW         1576    .bss.g_ready_acc    jy901.o
-    0x202009ef        -       0x00000001   Zero   RW         1578    .bss.g_ready_angle  jy901.o
-    0x202009f0        -       0x00000001   Zero   RW         1577    .bss.g_ready_gyro   jy901.o
-    0x202009f1        -       0x00000001   Zero   RW         1671    .bss.g_rx_checksum  bluetooth.o
-    0x202009f2        -       0x00000004   Zero   RW         1672    .bss.g_rx_float_bytes  bluetooth.o
-    0x202009f6        -       0x00000001   Zero   RW         1669    .bss.g_rx_id        bluetooth.o
-    0x202009f7        -       0x00000001   Zero   RW         1670    .bss.g_rx_index     bluetooth.o
-    0x202009f8        -       0x00000001   Zero   RW         1668    .bss.g_rx_state     bluetooth.o
-    0x202009f9        -       0x00000001   Zero   RW         1745    .bss.g_state        track.o
-    0x202009fa        -       0x00000002   Zero   RW         1750    .bss.g_straight_cycles  track.o
-    0x202009fc        -       0x00000004   Zero   RW         1706    .bss.g_tick_ms      board.o
-    0x20200a00        -       0x00000002   Zero   RW         1751    .bss.g_turn_cycles  track.o
-    0x20200a02   0x00005cfc   0x00000002   PAD
-    0x20200a04        -       0x00000004   Zero   RW         1962    .bss.gray_error     grayscalepid.o
-    0x20200a08        -       0x0000002c   Zero   RW         1961    .bss.gray_pid       grayscalepid.o
-    0x20200a34        -       0x00000001   Zero   RW         1860    .bss.pid_module_initialized  pid.o
-    0x20200a35   0x00005cfc   0x00000003   PAD
-    0x20200a38        -       0x0000002c   Zero   RW         1884    .bss.speed_left_pid  speedpid.o
-    0x20200a64        -       0x0000002c   Zero   RW         1885    .bss.speed_right_pid  speedpid.o
-    0x20200a90        -       0x00000008   Zero   RW         1579    .bss.stcAcc         jy901.o
-    0x20200a98        -       0x00000008   Zero   RW         1581    .bss.stcAngle       jy901.o
-    0x20200aa0        -       0x00000008   Zero   RW         1586    .bss.stcDStatus     jy901.o
-    0x20200aa8        -       0x00000008   Zero   RW         1589    .bss.stcGPSV        jy901.o
-    0x20200ab0        -       0x00000008   Zero   RW         1580    .bss.stcGyro        jy901.o
-    0x20200ab8        -       0x00000008   Zero   RW         1588    .bss.stcLonLat      jy901.o
-    0x20200ac0        -       0x00000008   Zero   RW         1585    .bss.stcMag         jy901.o
-    0x20200ac8        -       0x00000008   Zero   RW         1587    .bss.stcPress       jy901.o
-    0x20200ad0        -       0x00000008   Zero   RW         1590    .bss.stcQ           jy901.o
-    0x20200ad8        -       0x00000008   Zero   RW         1584    .bss.stcTime        jy901.o
-    0x20200ae0        -       0x00000004   Zero   RW         1936    .bss.yaw_angle_error  yawpid.o
-    0x20200ae4        -       0x0000002c   Zero   RW         1932    .bss.yaw_angle_pid  yawpid.o
-    0x20200b10        -       0x0000002c   Zero   RW         1933    .bss.yaw_rate_pid   yawpid.o
-    0x20200b3c        -       0x00000004   Zero   RW         1935    .bss.yaw_target     yawpid.o
+    0x202000ec        -       0x00000400   Zero   RW         1502    .bss.OLED_DisplayBuf  oled.o
+    0x202004ec        -       0x00000001   Zero   RW         1707    .bss.TIMA1_IRQHandler.div10  board.o
+    0x202004ed   0x00005cc0   0x00000003   PAD
+    0x202004f0        -       0x0000002c   Zero   RW         1934    .bss.angle_speed_pid  yawpid.o
+    0x2020051c        -       0x000000bc   Zero   RW         1394    .bss.gPWMABackup    ti_msp_dl_config.o
+    0x202005d8        -       0x000000bc   Zero   RW         1395    .bss.gTIMER_0Backup  ti_msp_dl_config.o
+    0x20200694        -       0x00000001   Zero   RW         1818    .bss.gUart1TxBusy   uart.o
+    0x20200695        -       0x00000100   Zero   RW         1817    .bss.gUart1TxFIFObuf  uart.o
+    0x20200795   0x00005cc0   0x00000001   PAD
+    0x20200796        -       0x00000002   Zero   RW         1815    .bss.gUart1TxHead   uart.o
+    0x20200798        -       0x00000100   Zero   RW         1823    .bss.gUart1TxShadow  uart.o
+    0x20200898        -       0x00000002   Zero   RW         1822    .bss.gUart1TxShadowLen  uart.o
+    0x2020089a        -       0x00000002   Zero   RW         1816    .bss.gUart1TxTail   uart.o
+    0x2020089c        -       0x00000100   Zero   RW         1821    .bss.gUart7RxFIFO   uart.o
+    0x2020099c        -       0x00000002   Zero   RW         1819    .bss.gUart7RxHead   uart.o
+    0x2020099e        -       0x00000010   Zero   RW         1824    .bss.gUart7RxLineBuf  uart.o
+    0x202009ae        -       0x00000002   Zero   RW         1820    .bss.gUart7RxTail   uart.o
+    0x202009b0        -       0x0000000c   Zero   RW         1573    .bss.g_acc_g        jy901.o
+    0x202009bc        -       0x00000004   Zero   RW         1753    .bss.g_active_base_speed  track.o
+    0x202009c0        -       0x0000000c   Zero   RW         1575    .bss.g_angle_deg    jy901.o
+    0x202009cc        -       0x00000004   Zero   RW         1623    .bss.g_enc_isr      encoder.o
+    0x202009d0        -       0x0000000c   Zero   RW         1574    .bss.g_gyro_dps     jy901.o
+    0x202009dc        -       0x00000004   Zero   RW         1552    .bss.g_last_left_output  motor.o
+    0x202009e0        -       0x00000004   Zero   RW         1553    .bss.g_last_right_output  motor.o
+    0x202009e4        -       0x00000002   Zero   RW         1752    .bss.g_last_weighted_sum  track.o
+    0x202009e6        -       0x00000001   Zero   RW         1747    .bss.g_marker_armed  track.o
+    0x202009e7        -       0x00000001   Zero   RW         1748    .bss.g_marker_candidate_side  track.o
+    0x202009e8        -       0x00000001   Zero   RW         1749    .bss.g_marker_confirm_cycles  track.o
+    0x202009e9        -       0x00000001   Zero   RW         1746    .bss.g_marker_side  track.o
+    0x202009ea        -       0x00000001   Zero   RW         1576    .bss.g_ready_acc    jy901.o
+    0x202009eb        -       0x00000001   Zero   RW         1578    .bss.g_ready_angle  jy901.o
+    0x202009ec        -       0x00000001   Zero   RW         1577    .bss.g_ready_gyro   jy901.o
+    0x202009ed        -       0x00000001   Zero   RW         1671    .bss.g_rx_checksum  bluetooth.o
+    0x202009ee        -       0x00000004   Zero   RW         1672    .bss.g_rx_float_bytes  bluetooth.o
+    0x202009f2        -       0x00000001   Zero   RW         1669    .bss.g_rx_id        bluetooth.o
+    0x202009f3        -       0x00000001   Zero   RW         1670    .bss.g_rx_index     bluetooth.o
+    0x202009f4        -       0x00000001   Zero   RW         1668    .bss.g_rx_state     bluetooth.o
+    0x202009f5        -       0x00000001   Zero   RW         1745    .bss.g_state        track.o
+    0x202009f6        -       0x00000002   Zero   RW         1750    .bss.g_straight_cycles  track.o
+    0x202009f8        -       0x00000004   Zero   RW         1706    .bss.g_tick_ms      board.o
+    0x202009fc        -       0x00000002   Zero   RW         1751    .bss.g_turn_cycles  track.o
+    0x202009fe   0x00005cc0   0x00000002   PAD
+    0x20200a00        -       0x00000004   Zero   RW         1962    .bss.gray_error     grayscalepid.o
+    0x20200a04        -       0x0000002c   Zero   RW         1961    .bss.gray_pid       grayscalepid.o
+    0x20200a30        -       0x00000001   Zero   RW         1860    .bss.pid_module_initialized  pid.o
+    0x20200a31   0x00005cc0   0x00000003   PAD
+    0x20200a34        -       0x0000002c   Zero   RW         1884    .bss.speed_left_pid  speedpid.o
+    0x20200a60        -       0x0000002c   Zero   RW         1885    .bss.speed_right_pid  speedpid.o
+    0x20200a8c        -       0x00000008   Zero   RW         1579    .bss.stcAcc         jy901.o
+    0x20200a94        -       0x00000008   Zero   RW         1581    .bss.stcAngle       jy901.o
+    0x20200a9c        -       0x00000008   Zero   RW         1586    .bss.stcDStatus     jy901.o
+    0x20200aa4        -       0x00000008   Zero   RW         1589    .bss.stcGPSV        jy901.o
+    0x20200aac        -       0x00000008   Zero   RW         1580    .bss.stcGyro        jy901.o
+    0x20200ab4        -       0x00000008   Zero   RW         1588    .bss.stcLonLat      jy901.o
+    0x20200abc        -       0x00000008   Zero   RW         1585    .bss.stcMag         jy901.o
+    0x20200ac4        -       0x00000008   Zero   RW         1587    .bss.stcPress       jy901.o
+    0x20200acc        -       0x00000008   Zero   RW         1590    .bss.stcQ           jy901.o
+    0x20200ad4        -       0x00000008   Zero   RW         1584    .bss.stcTime        jy901.o
+    0x20200adc        -       0x00000004   Zero   RW         1936    .bss.yaw_angle_error  yawpid.o
+    0x20200ae0        -       0x0000002c   Zero   RW         1932    .bss.yaw_angle_pid  yawpid.o
+    0x20200b0c        -       0x0000002c   Zero   RW         1933    .bss.yaw_rate_pid   yawpid.o
+    0x20200b38        -       0x00000004   Zero   RW         1935    .bss.yaw_target     yawpid.o
+    0x20200b3c   0x00005cc0   0x00000004   PAD
     0x20200b40        -       0x00000000   Zero   RW         1415    HEAP                startup_mspm0g351x_uvision.o
     0x20200b40        -       0x00001000   Zero   RW         1414    STACK               startup_mspm0g351x_uvision.o
 
 
-    Execution Region RW_IRAM2 (Exec base: 0x20210000, Load base: 0x00005d00, Size: 0x00000000, Max: 0x00010000, ABSOLUTE)
+    Execution Region RW_IRAM2 (Exec base: 0x20210000, Load base: 0x00005cc0, Size: 0x00000000, Max: 0x00010000, ABSOLUTE)
 
     **** No section assigned to this execution region ****
 
@@ -6042,12 +6042,12 @@ Image component sizes
        536         40          0         20         92       2204   speedpid.o
         44         18        192          0       4096        676   startup_mspm0g351x_uvision.o
       2326        208        117          0        376      29971   ti_msp_dl_config.o
-      1294         72          0          0         15       3905   track.o
+      1230         72          0          0         15       3837   track.o
       1224        100          0          0        795      11067   uart.o
-       484         72          0         32        152       3144   yawpid.o
+       484         72          0         36        148       3144   yawpid.o
 
     ----------------------------------------------------------------------
-     15884       1186       2732         68       6812     154666   Object Totals
+     15820       1186       2732         72       6808     154598   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         24          0         10          0         13          0   (incl. Padding)
 
@@ -6126,15 +6126,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     20940       1352       2796         68       6908     155918   Grand Totals
-     20940       1352       2796         68       6908     155918   ELF Image Totals
-     20940       1352       2796         68          0          0   ROM Totals
+     20876       1352       2796         72       6904     155850   Grand Totals
+     20876       1352       2796         72       6904     155850   ELF Image Totals
+     20876       1352       2796         72          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                23736 (  23.18kB)
+    Total RO  Size (Code + RO Data)                23672 (  23.12kB)
     Total RW  Size (RW Data + ZI Data)              6976 (   6.81kB)
-    Total ROM Size (Code + RO Data + RW Data)      23804 (  23.25kB)
+    Total ROM Size (Code + RO Data + RW Data)      23744 (  23.19kB)
 
 ==============================================================================
 

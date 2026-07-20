@@ -12,7 +12,7 @@
 #define TRACK_CONTROL_PERIOD_MS       10u
 #define TRACK_STRAIGHT_TIME_MS        300u
 #define TRACK_STRAIGHT_CYCLES         (TRACK_STRAIGHT_TIME_MS / TRACK_CONTROL_PERIOD_MS)
-#define TRACK_MARKER_CONFIRM_CYCLES   3u
+#define TRACK_MARKER_CONFIRM_CYCLES   1u
 
 /* 使两轮前进方向均为正的编码器方向系数。 */
 #define TRACK_LEFT_ENCODER_DIR        1
@@ -94,16 +94,12 @@ static uint8_t Track_IsCenter(uint8_t gray)
 
 static uint8_t Track_IsLeftMarker(uint8_t gray)
 {
-    return (uint8_t)(
-        ((gray & GRAY_LEFT_MARKER_MASK) == GRAY_LEFT_MARKER_MASK) &&
-        ((gray & GRAY_RIGHT_MARKER_MASK) != GRAY_RIGHT_MARKER_MASK));
+    return (uint8_t)(gray == GRAY_LEFT_MARKER_MASK);
 }
 
 static uint8_t Track_IsRightMarker(uint8_t gray)
 {
-    return (uint8_t)(
-        ((gray & GRAY_RIGHT_MARKER_MASK) == GRAY_RIGHT_MARKER_MASK) &&
-        ((gray & GRAY_LEFT_MARKER_MASK) != GRAY_LEFT_MARKER_MASK));
+    return (uint8_t)(gray == GRAY_RIGHT_MARKER_MASK);
 }
 
 static uint8_t Track_ConfirmMarker(uint8_t gray)

@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 
-#define TRACK_TURN_ANGLE_DEG          150.0f
+#define TRACK_TURN_ANGLE_DEG          30.0f
 /* 目标轮速单位与速度 PID 使用的单位一致。 */
 #define TRACK_BASE_SPEED              120u
 
